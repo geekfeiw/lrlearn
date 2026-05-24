@@ -19,6 +19,11 @@ const listItems = (items = []) => items.map((item) => `<li>${escapeHTML(item)}</
 
 const unique = (items) => [...new Set(items.filter(Boolean))];
 
+const renderEpisodeLinks = (text = "") => escapeHTML(text).replace(
+  /\b(\d{2})\b/g,
+  (number) => `<a class="episode-link" href="#episode-${number}" data-open="${number}" aria-label="打开追色手记 ${number}">${number}</a>`
+);
+
 function renderHero() {
   const heroImages = episodes.filter((item) => item.images?.length).slice(0, 18);
   $("#heroCollage").innerHTML = heroImages.map((item) => (
@@ -50,7 +55,7 @@ function renderRoadmap() {
       <h3>${escapeHTML(item.stage)}</h3>
       <p>${escapeHTML(item.goal)}</p>
       <span class="mini-label">${escapeHTML(item.must)}</span>
-      <p>${escapeHTML(item.episodes)}</p>
+      <div class="episode-number-links">${renderEpisodeLinks(item.episodes)}</div>
     </article>`
   )).join("");
 }
@@ -63,7 +68,7 @@ function renderRecipes() {
         <p>${escapeHTML(item.tone)}</p>
         <p>${escapeHTML(item.color)}</p>
       </div>
-      <div class="episode-list">${escapeHTML(item.episodes)}</div>
+      <div class="episode-list">${renderEpisodeLinks(item.episodes)}</div>
     </article>`
   )).join("");
 }
@@ -131,7 +136,7 @@ function renderEpisodes() {
       <img loading="lazy" src="${item.thumb || item.images?.[0] || ""}" alt="${escapeHTML(item.title)}">
       <div class="episode-body">
         <div class="episode-meta">
-          <span class="chip">追色手记 ${item.number}</span>
+          <a class="chip episode-link" href="#episode-${item.number}" data-open="${item.number}">追色手记 ${item.number}</a>
           <span class="chip">${escapeHTML(item.stage)}</span>
           <span class="chip">${escapeHTML(item.tag)}</span>
         </div>
@@ -162,7 +167,7 @@ function openEpisode(number) {
     <header class="detail-hero" style="background-image: url('${item.images?.[0] || item.thumb || ""}')">
       <div>
         <div class="detail-meta">
-          <span class="chip">追色手记 ${item.number}</span>
+          <a class="chip episode-link" href="#episode-${item.number}" data-open="${item.number}">追色手记 ${item.number}</a>
           <span class="chip">${escapeHTML(item.stage)}</span>
           <span class="chip">${escapeHTML(item.tag)}</span>
         </div>
@@ -226,10 +231,11 @@ function bindEvents() {
     renderEpisodes();
   });
 
-  $("#episodeGrid").addEventListener("click", (event) => {
-    const button = event.target.closest("button[data-open]");
-    if (!button) return;
-    openEpisode(button.dataset.open);
+  document.addEventListener("click", (event) => {
+    const opener = event.target.closest("[data-open]");
+    if (!opener) return;
+    event.preventDefault();
+    openEpisode(opener.dataset.open);
   });
 
   $("#detailPanel").addEventListener("click", (event) => {

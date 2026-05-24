@@ -410,6 +410,46 @@ select {
   font-weight: 760;
 }
 
+.episode-number-links,
+.episode-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+}
+
+.episode-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 28px;
+  padding: 0 8px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  color: var(--ink);
+  background: #fffdfa;
+  font-size: 12px;
+  font-weight: 800;
+  transition: transform 0.16s ease, border-color 0.16s ease, background 0.16s ease;
+}
+
+.episode-link:hover {
+  transform: translateY(-1px);
+  border-color: rgba(8, 127, 119, 0.45);
+  background: var(--teal-soft);
+}
+
+.recipe-card .episode-link {
+  color: var(--charcoal);
+  border-color: rgba(255, 214, 156, 0.5);
+  background: #ffd69c;
+}
+
+.episode-card .episode-link,
+.detail-meta .episode-link {
+  color: var(--muted);
+  background: var(--soft);
+}
+
 .stage-tabs {
   display: flex;
   flex-wrap: wrap;
