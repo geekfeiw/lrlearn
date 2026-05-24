@@ -6,6 +6,7 @@ const state = {
 
 let episodes = [];
 let guide = {};
+let recipeEpisodeOrder = new Map();
 
 const $ = (selector) => document.querySelector(selector);
 
@@ -23,6 +24,27 @@ const renderEpisodeLinks = (text = "") => escapeHTML(text).replace(
   /\b(\d{2})\b/g,
   (number) => `<a class="episode-link" href="#episode-${number}" data-open="${number}" aria-label="打开追色手记 ${number}">${number}</a>`
 );
+
+function initRecipeEpisodeOrder() {
+  recipeEpisodeOrder = new Map();
+  let rank = 0;
+  (guide.recipes || []).forEach((recipe) => {
+    const numbers = String(recipe.episodes || "").match(/\b\d{2}\b/g) || [];
+    numbers.forEach((number) => {
+      if (!recipeEpisodeOrder.has(number)) {
+        recipeEpisodeOrder.set(number, rank);
+        rank += 1;
+      }
+    });
+  });
+}
+
+function compareEpisodesByRecipeOrder(a, b) {
+  const fallbackRank = 10000;
+  const aRank = recipeEpisodeOrder.has(a.number) ? recipeEpisodeOrder.get(a.number) : fallbackRank + Number(a.number);
+  const bRank = recipeEpisodeOrder.has(b.number) ? recipeEpisodeOrder.get(b.number) : fallbackRank + Number(b.number);
+  return aRank - bRank || Number(a.number) - Number(b.number);
+}
 
 function renderHero() {
   const heroImages = episodes.filter((item) => item.cover || item.coverThumb).slice(0, 12);
@@ -125,7 +147,7 @@ function getFilteredEpisodes() {
     ].join(" ").toLowerCase();
     const queryOk = !query || haystack.includes(query);
     return stageOk && tagOk && queryOk;
-  });
+  }).sort(compareEpisodesByRecipeOrder);
 }
 
 function renderEpisodes() {
@@ -254,6 +276,7 @@ async function boot() {
   ]);
   episodes = await episodesRes.json();
   guide = await guideRes.json();
+  initRecipeEpisodeOrder();
 
   setupFilters();
   renderHero();
