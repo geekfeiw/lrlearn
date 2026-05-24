@@ -96,9 +96,12 @@
     "video": {
       "bvid": "BV1NS4y1x7GK",
       "url": "https://www.bilibili.com/video/BV1NS4y1x7GK/",
-      "duration": "10:15"
+      "duration": "10:15",
+      "coverUrl": "https://i0.hdslb.com/bfs/archive/224f02ee8a1517600d0dcaad928394622f2dc650.jpg"
     },
-    "thumb": "assets/episodes/01/thumb.webp",
+    "cover": "assets/covers/01-cover.webp",
+    "coverThumb": "assets/covers/01-cover-thumb.webp",
+    "thumb": "",
     "images": [
       "assets/episodes/01/gallery-01.webp",
       "assets/episodes/01/gallery-02.webp",
@@ -227,9 +230,12 @@
     "video": {
       "bvid": "BV1nG4y1s7LW",
       "url": "https://www.bilibili.com/video/BV1nG4y1s7LW/",
-      "duration": "10:42"
+      "duration": "10:42",
+      "coverUrl": "https://i1.hdslb.com/bfs/archive/47f08c94e3380a921ea751d19282f1acede7b4d8.jpg"
     },
-    "thumb": "assets/episodes/02/thumb.webp",
+    "cover": "assets/covers/02-cover.webp",
+    "coverThumb": "assets/covers/02-cover-thumb.webp",
+    "thumb": "",
     "images": [
       "assets/episodes/02/gallery-01.webp",
       "assets/episodes/02/gallery-02.webp",
@@ -354,9 +360,12 @@
     "video": {
       "bvid": "BV1iG4y1n7Wo",
       "url": "https://www.bilibili.com/video/BV1iG4y1n7Wo/",
-      "duration": "14:11"
+      "duration": "14:11",
+      "coverUrl": "https://i2.hdslb.com/bfs/archive/b591f6cf62a8ef899ba058f22d5705ce5b01d9e5.jpg"
     },
-    "thumb": "assets/episodes/03/thumb.webp",
+    "cover": "assets/covers/03-cover.webp",
+    "coverThumb": "assets/covers/03-cover-thumb.webp",
+    "thumb": "",
     "images": [
       "assets/episodes/03/gallery-01.webp",
       "assets/episodes/03/gallery-02.webp",
@@ -497,9 +506,12 @@
     "video": {
       "bvid": "BV17K411R7vQ",
       "url": "https://www.bilibili.com/video/BV17K411R7vQ/",
-      "duration": "15:01"
+      "duration": "15:01",
+      "coverUrl": "https://i0.hdslb.com/bfs/archive/94dd7f057db2b12977a55586452bdfa0b3a7ba02.jpg"
     },
-    "thumb": "assets/episodes/04/thumb.webp",
+    "cover": "assets/covers/04-cover.webp",
+    "coverThumb": "assets/covers/04-cover-thumb.webp",
+    "thumb": "",
     "images": [
       "assets/episodes/04/gallery-01.webp",
       "assets/episodes/04/gallery-02.webp",
@@ -628,9 +640,12 @@
     "video": {
       "bvid": "BV1hv4y1B7eU",
       "url": "https://www.bilibili.com/video/BV1hv4y1B7eU/",
-      "duration": "13:51"
+      "duration": "13:51",
+      "coverUrl": "https://i1.hdslb.com/bfs/archive/0801015715ee3770c9f7b49a60b8ffb4dc6561fc.jpg"
     },
-    "thumb": "assets/episodes/05/thumb.webp",
+    "cover": "assets/covers/05-cover.webp",
+    "coverThumb": "assets/covers/05-cover-thumb.webp",
+    "thumb": "",
     "images": [
       "assets/episodes/05/gallery-01.webp",
       "assets/episodes/05/gallery-02.webp",
@@ -759,9 +774,12 @@
     "video": {
       "bvid": "BV1Ab411d7Bv",
       "url": "https://www.bilibili.com/video/BV1Ab411d7Bv/",
-      "duration": "15:46"
+      "duration": "15:46",
+      "coverUrl": "https://i1.hdslb.com/bfs/archive/af2e1b72a762d05b9541bcb1e20f30f39065cf3a.jpg"
     },
-    "thumb": "assets/episodes/06/thumb.webp",
+    "cover": "assets/covers/06-cover.webp",
+    "coverThumb": "assets/covers/06-cover-thumb.webp",
+    "thumb": "",
     "images": [
       "assets/episodes/06/gallery-01.webp",
       "assets/episodes/06/gallery-02.webp",
@@ -902,9 +920,12 @@
     "video": {
       "bvid": "BV1WP411Z7s3",
       "url": "https://www.bilibili.com/video/BV1WP411Z7s3/",
-      "duration": "11:19"
+      "duration": "11:19",
+      "coverUrl": "https://i0.hdslb.com/bfs/archive/e8a9535aebd1babc02985604be2277bccba3313d.jpg"
     },
-    "thumb": "assets/episodes/07/thumb.webp",
+    "cover": "assets/covers/07-cover.webp",
+    "coverThumb": "assets/covers/07-cover-thumb.webp",
+    "thumb": "",
     "images": [
       "assets/episodes/07/gallery-01.webp",
       "assets/episodes/07/gallery-02.webp",
@@ -1033,9 +1054,12 @@
     "video": {
       "bvid": "BV1UN411N7pB",
       "url": "https://www.bilibili.com/video/BV1UN411N7pB/",
-      "duration": "08:35"
+      "duration": "08:35",
+      "coverUrl": "https://i2.hdslb.com/bfs/archive/f3f973ba12be5641ef91cbf5294efb7284e7a7b4.jpg"
     },
-    "thumb": "assets/episodes/08/thumb.webp",
+    "cover": "assets/covers/08-cover.webp",
+    "coverThumb": "assets/covers/08-cover-thumb.webp",
+    "thumb": "",
     "images": [
       "assets/episodes/08/gallery-01.webp",
       "assets/episodes/08/gallery-02.webp",
@@ -1164,9 +1188,12 @@
     "video": {
       "bvid": "BV1Cs4y197XZ",
       "url": "https://www.bilibili.com/video/BV1Cs4y197XZ/",
-      "duration": "11:40"
+      "duration": "11:40",
+      "coverUrl": "https://i0.hdslb.com/bfs/archive/6d2c843224d6da8bbf5962eec1aa0c68d9ae8cc7.jpg"
     },
-    "thumb": "assets/episodes/09/thumb.webp",
+    "cover": "assets/covers/09-cover.webp",
+    "coverThumb": "assets/covers/09-cover-thumb.webp",
+    "thumb": "",
     "images": [
       "assets/episodes/09/gallery-01.webp",
       "assets/episodes/09/gallery-02.webp",
@@ -1295,9 +1322,12 @@
     "video": {
       "bvid": "BV1mo4y1g778",
       "url": "https://www.bilibili.com/video/BV1mo4y1g778/",
-      "duration": "08:46"
+      "duration": "08:46",
+      "coverUrl": "https://i1.hdslb.com/bfs/archive/a4eb8a20170289682454922661a66bb98ee751b4.jpg"
     },
-    "thumb": "assets/episodes/10/thumb.webp",
+    "cover": "assets/covers/10-cover.webp",
+    "coverThumb": "assets/covers/10-cover-thumb.webp",
+    "thumb": "",
     "images": [
       "assets/episodes/10/gallery-01.webp",
       "assets/episodes/10/gallery-02.webp",
@@ -1426,9 +1456,12 @@
     "video": {
       "bvid": "BV1Lm4y1e7W7",
       "url": "https://www.bilibili.com/video/BV1Lm4y1e7W7/",
-      "duration": "09:15"
+      "duration": "09:15",
+      "coverUrl": "https://i1.hdslb.com/bfs/archive/f7604164b1b8f4519897eaf6c4ddc3df34ef1f02.jpg"
     },
-    "thumb": "assets/episodes/11/thumb.webp",
+    "cover": "assets/covers/11-cover.webp",
+    "coverThumb": "assets/covers/11-cover-thumb.webp",
+    "thumb": "",
     "images": [
       "assets/episodes/11/gallery-01.webp",
       "assets/episodes/11/gallery-02.webp",
@@ -1601,9 +1634,12 @@
     "video": {
       "bvid": "BV1rm4y1p7WV",
       "url": "https://www.bilibili.com/video/BV1rm4y1p7WV/",
-      "duration": "08:40"
+      "duration": "08:40",
+      "coverUrl": "https://i1.hdslb.com/bfs/archive/ad6a0712e2827ef440d5a20b84b78dfcc2cef957.jpg"
     },
-    "thumb": "assets/episodes/12/thumb.webp",
+    "cover": "assets/covers/12-cover.webp",
+    "coverThumb": "assets/covers/12-cover-thumb.webp",
+    "thumb": "",
     "images": [
       "assets/episodes/12/gallery-01.webp",
       "assets/episodes/12/gallery-02.webp",
@@ -1732,9 +1768,12 @@
     "video": {
       "bvid": "BV1Pk4y1A7W3",
       "url": "https://www.bilibili.com/video/BV1Pk4y1A7W3/",
-      "duration": "08:21"
+      "duration": "08:21",
+      "coverUrl": "https://i1.hdslb.com/bfs/archive/2a56d84bbdc3cda801a3d97a8177f94643cf9f12.jpg"
     },
-    "thumb": "assets/episodes/13/thumb.webp",
+    "cover": "assets/covers/13-cover.webp",
+    "coverThumb": "assets/covers/13-cover-thumb.webp",
+    "thumb": "",
     "images": [
       "assets/episodes/13/gallery-01.webp",
       "assets/episodes/13/gallery-02.webp",
@@ -1883,9 +1922,12 @@
     "video": {
       "bvid": "BV11w411v71a",
       "url": "https://www.bilibili.com/video/BV11w411v71a/",
-      "duration": "08:51"
+      "duration": "08:51",
+      "coverUrl": "https://i0.hdslb.com/bfs/archive/7ab3d1324697b410022f2db8c484e797b0581402.jpg"
     },
-    "thumb": "assets/episodes/14/thumb.webp",
+    "cover": "assets/covers/14-cover.webp",
+    "coverThumb": "assets/covers/14-cover-thumb.webp",
+    "thumb": "",
     "images": [
       "assets/episodes/14/gallery-01.webp",
       "assets/episodes/14/gallery-02.webp",
@@ -2014,9 +2056,12 @@
     "video": {
       "bvid": "BV1i841167nW",
       "url": "https://www.bilibili.com/video/BV1i841167nW/",
-      "duration": "08:45"
+      "duration": "08:45",
+      "coverUrl": "https://i2.hdslb.com/bfs/archive/c8aa82398ae3032695a91998bbe54b3c1f9f7f43.jpg"
     },
-    "thumb": "assets/episodes/15/thumb.webp",
+    "cover": "assets/covers/15-cover.webp",
+    "coverThumb": "assets/covers/15-cover-thumb.webp",
+    "thumb": "",
     "images": [
       "assets/episodes/15/gallery-01.webp",
       "assets/episodes/15/gallery-02.webp",
@@ -2145,9 +2190,12 @@
     "video": {
       "bvid": "BV18N41137j4",
       "url": "https://www.bilibili.com/video/BV18N41137j4/",
-      "duration": "09:24"
+      "duration": "09:24",
+      "coverUrl": "https://i1.hdslb.com/bfs/archive/83a95f77a641d774614a58e333848947cf9683a4.jpg"
     },
-    "thumb": "assets/episodes/16/thumb.webp",
+    "cover": "assets/covers/16-cover.webp",
+    "coverThumb": "assets/covers/16-cover-thumb.webp",
+    "thumb": "",
     "images": [
       "assets/episodes/16/gallery-01.webp",
       "assets/episodes/16/gallery-02.webp",
@@ -2276,9 +2324,12 @@
     "video": {
       "bvid": "BV1xC4y1P7Pa",
       "url": "https://www.bilibili.com/video/BV1xC4y1P7Pa/",
-      "duration": "11:01"
+      "duration": "11:01",
+      "coverUrl": "https://i0.hdslb.com/bfs/archive/673c7bf8ee40e12d82780b8eb2259f50f992ee28.jpg"
     },
-    "thumb": "assets/episodes/17/thumb.webp",
+    "cover": "assets/covers/17-cover.webp",
+    "coverThumb": "assets/covers/17-cover-thumb.webp",
+    "thumb": "",
     "images": [
       "assets/episodes/17/gallery-01.webp",
       "assets/episodes/17/gallery-02.webp",
@@ -2407,9 +2458,12 @@
     "video": {
       "bvid": "BV1cu4y1T7w3",
       "url": "https://www.bilibili.com/video/BV1cu4y1T7w3/",
-      "duration": "11:33"
+      "duration": "11:33",
+      "coverUrl": "https://i0.hdslb.com/bfs/archive/4b4be1bbe586bd41d1122744dc3034d2f0ac7415.jpg"
     },
-    "thumb": "assets/episodes/18/thumb.webp",
+    "cover": "assets/covers/18-cover.webp",
+    "coverThumb": "assets/covers/18-cover-thumb.webp",
+    "thumb": "",
     "images": [
       "assets/episodes/18/gallery-01.webp",
       "assets/episodes/18/gallery-02.webp",
@@ -2538,9 +2592,12 @@
     "video": {
       "bvid": "BV1eT4y1H76y",
       "url": "https://www.bilibili.com/video/BV1eT4y1H76y/",
-      "duration": "09:59"
+      "duration": "09:59",
+      "coverUrl": "https://i1.hdslb.com/bfs/archive/e86aaf5f7c717e5b32cb22a5a645f3015c25e70f.jpg"
     },
-    "thumb": "assets/episodes/19/thumb.webp",
+    "cover": "assets/covers/19-cover.webp",
+    "coverThumb": "assets/covers/19-cover-thumb.webp",
+    "thumb": "",
     "images": [
       "assets/episodes/19/gallery-01.webp",
       "assets/episodes/19/gallery-02.webp",
@@ -2669,9 +2726,12 @@
     "video": {
       "bvid": "BV1N64y1N7yD",
       "url": "https://www.bilibili.com/video/BV1N64y1N7yD/",
-      "duration": "09:03"
+      "duration": "09:03",
+      "coverUrl": "https://i0.hdslb.com/bfs/archive/544ea294a4ad6596a5aab4bce0e366dbc69424f6.jpg"
     },
-    "thumb": "assets/episodes/20/thumb.webp",
+    "cover": "assets/covers/20-cover.webp",
+    "coverThumb": "assets/covers/20-cover-thumb.webp",
+    "thumb": "",
     "images": [
       "assets/episodes/20/gallery-01.webp",
       "assets/episodes/20/gallery-02.webp",
@@ -2800,9 +2860,12 @@
     "video": {
       "bvid": "BV1C6421G7yo",
       "url": "https://www.bilibili.com/video/BV1C6421G7yo/",
-      "duration": "08:27"
+      "duration": "08:27",
+      "coverUrl": "https://i1.hdslb.com/bfs/archive/904638bb19a815fae5090c2bd634d31e51a1d86f.jpg"
     },
-    "thumb": "assets/episodes/21/thumb.webp",
+    "cover": "assets/covers/21-cover.webp",
+    "coverThumb": "assets/covers/21-cover-thumb.webp",
+    "thumb": "",
     "images": [
       "assets/episodes/21/gallery-01.webp",
       "assets/episodes/21/gallery-02.webp",
@@ -2931,9 +2994,12 @@
     "video": {
       "bvid": "BV1dJ4m1W7V1",
       "url": "https://www.bilibili.com/video/BV1dJ4m1W7V1/",
-      "duration": "10:24"
+      "duration": "10:24",
+      "coverUrl": "https://i2.hdslb.com/bfs/archive/0126852d88e29efa469d4bf109b0b8db3c0b6af7.jpg"
     },
-    "thumb": "assets/episodes/22/thumb.webp",
+    "cover": "assets/covers/22-cover.webp",
+    "coverThumb": "assets/covers/22-cover-thumb.webp",
+    "thumb": "",
     "images": [
       "assets/episodes/22/gallery-01.webp",
       "assets/episodes/22/gallery-02.webp",
@@ -3062,9 +3128,12 @@
     "video": {
       "bvid": "BV1oK42147nb",
       "url": "https://www.bilibili.com/video/BV1oK42147nb/",
-      "duration": "11:20"
+      "duration": "11:20",
+      "coverUrl": "https://i2.hdslb.com/bfs/archive/883d8fcda287d7f37a459453024eb0aa61b4a289.jpg"
     },
-    "thumb": "assets/episodes/23/thumb.webp",
+    "cover": "assets/covers/23-cover.webp",
+    "coverThumb": "assets/covers/23-cover-thumb.webp",
+    "thumb": "",
     "images": [
       "assets/episodes/23/gallery-01.webp",
       "assets/episodes/23/gallery-02.webp",
@@ -3193,9 +3262,12 @@
     "video": {
       "bvid": "BV1Fw4m1d7Bs",
       "url": "https://www.bilibili.com/video/BV1Fw4m1d7Bs/",
-      "duration": "10:26"
+      "duration": "10:26",
+      "coverUrl": "https://i2.hdslb.com/bfs/archive/c08bb15682c012c9f3813ed2e75c1195a0c591e5.jpg"
     },
-    "thumb": "assets/episodes/24/thumb.webp",
+    "cover": "assets/covers/24-cover.webp",
+    "coverThumb": "assets/covers/24-cover-thumb.webp",
+    "thumb": "",
     "images": [
       "assets/episodes/24/gallery-01.webp",
       "assets/episodes/24/gallery-02.webp",
@@ -3324,9 +3396,12 @@
     "video": {
       "bvid": "BV1MZ421n7hr",
       "url": "https://www.bilibili.com/video/BV1MZ421n7hr/",
-      "duration": "10:28"
+      "duration": "10:28",
+      "coverUrl": "https://i2.hdslb.com/bfs/archive/38568ce4bb3f9ff96189d30476b5f4e3260a57d2.jpg"
     },
-    "thumb": "assets/episodes/25/thumb.webp",
+    "cover": "assets/covers/25-cover.webp",
+    "coverThumb": "assets/covers/25-cover-thumb.webp",
+    "thumb": "",
     "images": [
       "assets/episodes/25/gallery-01.webp",
       "assets/episodes/25/gallery-02.webp",
@@ -3455,9 +3530,12 @@
     "video": {
       "bvid": "BV13M4m1C7Zt",
       "url": "https://www.bilibili.com/video/BV13M4m1C7Zt/",
-      "duration": "11:45"
+      "duration": "11:45",
+      "coverUrl": "https://i1.hdslb.com/bfs/archive/9c345798cba8d9d1825991087a6c345af1da1fe7.jpg"
     },
-    "thumb": "assets/episodes/26/thumb.webp",
+    "cover": "assets/covers/26-cover.webp",
+    "coverThumb": "assets/covers/26-cover-thumb.webp",
+    "thumb": "",
     "images": [
       "assets/episodes/26/gallery-01.webp",
       "assets/episodes/26/gallery-02.webp",
@@ -3586,9 +3664,12 @@
     "video": {
       "bvid": "BV1Cw4m1S7hT",
       "url": "https://www.bilibili.com/video/BV1Cw4m1S7hT/",
-      "duration": "10:57"
+      "duration": "10:57",
+      "coverUrl": "https://i0.hdslb.com/bfs/archive/302f1ab10198b55c9044fec101eb1e37197caa34.jpg"
     },
-    "thumb": "assets/episodes/27/thumb.webp",
+    "cover": "assets/covers/27-cover.webp",
+    "coverThumb": "assets/covers/27-cover-thumb.webp",
+    "thumb": "",
     "images": [
       "assets/episodes/27/gallery-01.webp",
       "assets/episodes/27/gallery-02.webp",
@@ -3717,9 +3798,12 @@
     "video": {
       "bvid": "BV1Cs421u7ve",
       "url": "https://www.bilibili.com/video/BV1Cs421u7ve/",
-      "duration": "12:05"
+      "duration": "12:05",
+      "coverUrl": "https://i0.hdslb.com/bfs/archive/cdc6d57a9e0b58c8336b37e1cf1960097859f929.jpg"
     },
-    "thumb": "assets/episodes/28/thumb.webp",
+    "cover": "assets/covers/28-cover.webp",
+    "coverThumb": "assets/covers/28-cover-thumb.webp",
+    "thumb": "",
     "images": [
       "assets/episodes/28/gallery-01.webp",
       "assets/episodes/28/gallery-02.webp",
@@ -3848,9 +3932,12 @@
     "video": {
       "bvid": "BV17y411i7Ve",
       "url": "https://www.bilibili.com/video/BV17y411i7Ve/",
-      "duration": "11:20"
+      "duration": "11:20",
+      "coverUrl": "https://i2.hdslb.com/bfs/archive/d97ecfb6c20798f35a3cb145bb9b5cf5e1ad5ed9.jpg"
     },
-    "thumb": "assets/episodes/29/thumb.webp",
+    "cover": "assets/covers/29-cover.webp",
+    "coverThumb": "assets/covers/29-cover-thumb.webp",
+    "thumb": "",
     "images": [
       "assets/episodes/29/gallery-01.webp",
       "assets/episodes/29/gallery-02.webp",
@@ -3981,9 +4068,12 @@
     "video": {
       "bvid": "BV194421Z7Ve",
       "url": "https://www.bilibili.com/video/BV194421Z7Ve/",
-      "duration": "10:47"
+      "duration": "10:47",
+      "coverUrl": "https://i2.hdslb.com/bfs/archive/1079efd4d18fa6c5d51ca217e961871944e44254.jpg"
     },
-    "thumb": "assets/episodes/30/thumb.webp",
+    "cover": "assets/covers/30-cover.webp",
+    "coverThumb": "assets/covers/30-cover-thumb.webp",
+    "thumb": "",
     "images": [
       "assets/episodes/30/gallery-01.webp",
       "assets/episodes/30/gallery-02.webp",
@@ -4112,9 +4202,12 @@
     "video": {
       "bvid": "BV1FT421z7YW",
       "url": "https://www.bilibili.com/video/BV1FT421z7YW/",
-      "duration": "10:35"
+      "duration": "10:35",
+      "coverUrl": "https://i2.hdslb.com/bfs/archive/fa60f3508814ebf3a832f08735d3e465b16f921d.jpg"
     },
-    "thumb": "assets/episodes/31/thumb.webp",
+    "cover": "assets/covers/31-cover.webp",
+    "coverThumb": "assets/covers/31-cover-thumb.webp",
+    "thumb": "",
     "images": [
       "assets/episodes/31/gallery-01.webp",
       "assets/episodes/31/gallery-02.webp",
@@ -4243,9 +4336,12 @@
     "video": {
       "bvid": "BV1ar421T7BS",
       "url": "https://www.bilibili.com/video/BV1ar421T7BS/",
-      "duration": "07:21"
+      "duration": "07:21",
+      "coverUrl": "https://i1.hdslb.com/bfs/archive/c95fc0d63e8401a92c20a5e70bf8895c478c61cd.jpg"
     },
-    "thumb": "assets/episodes/32/thumb.webp",
+    "cover": "assets/covers/32-cover.webp",
+    "coverThumb": "assets/covers/32-cover-thumb.webp",
+    "thumb": "",
     "images": [
       "assets/episodes/32/gallery-01.webp",
       "assets/episodes/32/gallery-02.webp",
@@ -4374,9 +4470,12 @@
     "video": {
       "bvid": "BV1NN4be7E1B",
       "url": "https://www.bilibili.com/video/BV1NN4be7E1B/",
-      "duration": "08:45"
+      "duration": "08:45",
+      "coverUrl": "https://i1.hdslb.com/bfs/archive/62b2c826d9e8355911a0f1085824cd41d64d9f34.jpg"
     },
-    "thumb": "assets/episodes/33/thumb.webp",
+    "cover": "assets/covers/33-cover.webp",
+    "coverThumb": "assets/covers/33-cover-thumb.webp",
+    "thumb": "",
     "images": [
       "assets/episodes/33/gallery-01.webp",
       "assets/episodes/33/gallery-02.webp",
@@ -4505,9 +4604,12 @@
     "video": {
       "bvid": "BV1VZxxenEpD",
       "url": "https://www.bilibili.com/video/BV1VZxxenEpD/",
-      "duration": "10:37"
+      "duration": "10:37",
+      "coverUrl": "https://i1.hdslb.com/bfs/archive/57ff469c46691063bf434c22dc63e1772b794b8d.jpg"
     },
-    "thumb": "assets/episodes/34/thumb.webp",
+    "cover": "assets/covers/34-cover.webp",
+    "coverThumb": "assets/covers/34-cover-thumb.webp",
+    "thumb": "",
     "images": [
       "assets/episodes/34/gallery-01.webp",
       "assets/episodes/34/gallery-02.webp",
@@ -4636,9 +4738,12 @@
     "video": {
       "bvid": "BV1hU2bYdEYH",
       "url": "https://www.bilibili.com/video/BV1hU2bYdEYH/",
-      "duration": "10:06"
+      "duration": "10:06",
+      "coverUrl": "https://i0.hdslb.com/bfs/archive/80132865337eb3b6db0b7e50ca611d52b3028b47.jpg"
     },
-    "thumb": "assets/episodes/35/thumb.webp",
+    "cover": "assets/covers/35-cover.webp",
+    "coverThumb": "assets/covers/35-cover-thumb.webp",
+    "thumb": "",
     "images": [
       "assets/episodes/35/gallery-01.webp",
       "assets/episodes/35/gallery-02.webp",
@@ -4767,9 +4872,12 @@
     "video": {
       "bvid": "BV1w6y1YJEUa",
       "url": "https://www.bilibili.com/video/BV1w6y1YJEUa/",
-      "duration": "08:53"
+      "duration": "08:53",
+      "coverUrl": "https://i1.hdslb.com/bfs/archive/537e5e698497bc51cf42809b967daa079b992fa3.jpg"
     },
-    "thumb": "assets/episodes/36/thumb.webp",
+    "cover": "assets/covers/36-cover.webp",
+    "coverThumb": "assets/covers/36-cover-thumb.webp",
+    "thumb": "",
     "images": [
       "assets/episodes/36/gallery-01.webp",
       "assets/episodes/36/gallery-02.webp",
@@ -4898,9 +5006,12 @@
     "video": {
       "bvid": "BV1knDKYHEKx",
       "url": "https://www.bilibili.com/video/BV1knDKYHEKx/",
-      "duration": "11:05"
+      "duration": "11:05",
+      "coverUrl": "https://i2.hdslb.com/bfs/archive/340df9bcc0866cbcac151fe16d73f709aa31709a.jpg"
     },
-    "thumb": "assets/episodes/37/thumb.webp",
+    "cover": "assets/covers/37-cover.webp",
+    "coverThumb": "assets/covers/37-cover-thumb.webp",
+    "thumb": "",
     "images": [
       "assets/episodes/37/gallery-01.webp",
       "assets/episodes/37/gallery-02.webp",
@@ -5029,9 +5140,12 @@
     "video": {
       "bvid": "BV1TZBRYTEtg",
       "url": "https://www.bilibili.com/video/BV1TZBRYTEtg/",
-      "duration": "10:32"
+      "duration": "10:32",
+      "coverUrl": "https://i2.hdslb.com/bfs/archive/7f6d5932c23ca284cdf4f5dc0a8b097dfd3e76fc.jpg"
     },
-    "thumb": "assets/episodes/38/thumb.webp",
+    "cover": "assets/covers/38-cover.webp",
+    "coverThumb": "assets/covers/38-cover-thumb.webp",
+    "thumb": "",
     "images": [
       "assets/episodes/38/gallery-01.webp",
       "assets/episodes/38/gallery-02.webp",
@@ -5160,9 +5274,12 @@
     "video": {
       "bvid": "BV1tDqvYjE1p",
       "url": "https://www.bilibili.com/video/BV1tDqvYjE1p/",
-      "duration": "12:31"
+      "duration": "12:31",
+      "coverUrl": "https://i2.hdslb.com/bfs/archive/76710752505dac76c7a8e0b85cfc0c4ac1a9a2cc.jpg"
     },
-    "thumb": "assets/episodes/39/thumb.webp",
+    "cover": "assets/covers/39-cover.webp",
+    "coverThumb": "assets/covers/39-cover-thumb.webp",
+    "thumb": "",
     "images": [
       "assets/episodes/39/gallery-01.webp",
       "assets/episodes/39/gallery-02.webp",
@@ -5291,9 +5408,12 @@
     "video": {
       "bvid": "BV1mJCcYcEZo",
       "url": "https://www.bilibili.com/video/BV1mJCcYcEZo/",
-      "duration": "10:07"
+      "duration": "10:07",
+      "coverUrl": "https://i0.hdslb.com/bfs/archive/7ad2df6ad6cee7fba664101913ce5e3d3a86449d.jpg"
     },
-    "thumb": "assets/episodes/40/thumb.webp",
+    "cover": "assets/covers/40-cover.webp",
+    "coverThumb": "assets/covers/40-cover-thumb.webp",
+    "thumb": "",
     "images": [
       "assets/episodes/40/gallery-01.webp",
       "assets/episodes/40/gallery-02.webp",
@@ -5422,9 +5542,12 @@
     "video": {
       "bvid": "BV1Kuc4e1EvM",
       "url": "https://www.bilibili.com/video/BV1Kuc4e1EvM/",
-      "duration": "09:48"
+      "duration": "09:48",
+      "coverUrl": "https://i2.hdslb.com/bfs/archive/81f2734fe414ceb46ebdb5e9fcf3faaaf492d33e.jpg"
     },
-    "thumb": "assets/episodes/41/thumb.webp",
+    "cover": "assets/covers/41-cover.webp",
+    "coverThumb": "assets/covers/41-cover-thumb.webp",
+    "thumb": "",
     "images": [
       "assets/episodes/41/gallery-01.webp",
       "assets/episodes/41/gallery-02.webp",
@@ -5553,9 +5676,12 @@
     "video": {
       "bvid": "BV1kFfLYNEUX",
       "url": "https://www.bilibili.com/video/BV1kFfLYNEUX/",
-      "duration": "06:54"
+      "duration": "06:54",
+      "coverUrl": "https://i0.hdslb.com/bfs/archive/5e4cfba0ade8bc4a4731b0f3a60d2d350970ca97.jpg"
     },
-    "thumb": "assets/episodes/42/thumb.webp",
+    "cover": "assets/covers/42-cover.webp",
+    "coverThumb": "assets/covers/42-cover-thumb.webp",
+    "thumb": "",
     "images": [
       "assets/episodes/42/gallery-01.webp",
       "assets/episodes/42/gallery-02.webp",
@@ -5684,9 +5810,12 @@
     "video": {
       "bvid": "BV1A5ANeSEcW",
       "url": "https://www.bilibili.com/video/BV1A5ANeSEcW/",
-      "duration": "09:02"
+      "duration": "09:02",
+      "coverUrl": "https://i0.hdslb.com/bfs/archive/85c655cbd4c27ae31422b06784bdc35e3fe7f68f.jpg"
     },
-    "thumb": "assets/episodes/43/thumb.webp",
+    "cover": "assets/covers/43-cover.webp",
+    "coverThumb": "assets/covers/43-cover-thumb.webp",
+    "thumb": "",
     "images": [
       "assets/episodes/43/gallery-01.webp",
       "assets/episodes/43/gallery-02.webp",
@@ -5815,9 +5944,12 @@
     "video": {
       "bvid": "BV138RPY3EyE",
       "url": "https://www.bilibili.com/video/BV138RPY3EyE/",
-      "duration": "08:34"
+      "duration": "08:34",
+      "coverUrl": "https://i0.hdslb.com/bfs/archive/a9c93804aff26f337a94c4ca9119fdcb2412646e.jpg"
     },
-    "thumb": "assets/episodes/44/thumb.webp",
+    "cover": "assets/covers/44-cover.webp",
+    "coverThumb": "assets/covers/44-cover-thumb.webp",
+    "thumb": "",
     "images": [
       "assets/episodes/44/gallery-01.webp",
       "assets/episodes/44/gallery-02.webp",
@@ -5946,9 +6078,12 @@
     "video": {
       "bvid": "BV1YcoiYMEuC",
       "url": "https://www.bilibili.com/video/BV1YcoiYMEuC/",
-      "duration": "11:16"
+      "duration": "11:16",
+      "coverUrl": "https://i1.hdslb.com/bfs/archive/f0f5738e8dfae23d125872200bfc9b6261fd85a0.jpg"
     },
-    "thumb": "assets/episodes/45/thumb.webp",
+    "cover": "assets/covers/45-cover.webp",
+    "coverThumb": "assets/covers/45-cover-thumb.webp",
+    "thumb": "",
     "images": [
       "assets/episodes/45/gallery-01.webp",
       "assets/episodes/45/gallery-02.webp",
@@ -6093,9 +6228,12 @@
     "video": {
       "bvid": "BV1fw5rzAE71",
       "url": "https://www.bilibili.com/video/BV1fw5rzAE71/",
-      "duration": "07:16"
+      "duration": "07:16",
+      "coverUrl": "https://i2.hdslb.com/bfs/archive/ac879b23ddcad241a1ebbe1f731b3fd01e1b9862.jpg"
     },
-    "thumb": "assets/episodes/46/thumb.webp",
+    "cover": "assets/covers/46-cover.webp",
+    "coverThumb": "assets/covers/46-cover-thumb.webp",
+    "thumb": "",
     "images": [
       "assets/episodes/46/gallery-01.webp",
       "assets/episodes/46/gallery-02.webp",
@@ -6224,9 +6362,12 @@
     "video": {
       "bvid": "BV1iUJ6zrEfP",
       "url": "https://www.bilibili.com/video/BV1iUJ6zrEfP/",
-      "duration": "07:43"
+      "duration": "07:43",
+      "coverUrl": "https://i2.hdslb.com/bfs/archive/e2bc008297750801a1731e8e0ff58dfff7235104.jpg"
     },
-    "thumb": "assets/episodes/47/thumb.webp",
+    "cover": "assets/covers/47-cover.webp",
+    "coverThumb": "assets/covers/47-cover-thumb.webp",
+    "thumb": "",
     "images": [
       "assets/episodes/47/gallery-01.webp",
       "assets/episodes/47/gallery-02.webp",
@@ -6355,9 +6496,12 @@
     "video": {
       "bvid": "BV1onNWz9E3Z",
       "url": "https://www.bilibili.com/video/BV1onNWz9E3Z/",
-      "duration": "09:06"
+      "duration": "09:06",
+      "coverUrl": "https://i2.hdslb.com/bfs/archive/fbfcfe34464633791d600ac6291a6987f95858ad.jpg"
     },
-    "thumb": "assets/episodes/48/thumb.webp",
+    "cover": "assets/covers/48-cover.webp",
+    "coverThumb": "assets/covers/48-cover-thumb.webp",
+    "thumb": "",
     "images": [
       "assets/episodes/48/gallery-01.webp",
       "assets/episodes/48/gallery-02.webp",
@@ -6511,9 +6655,12 @@
     "video": {
       "bvid": "BV11UbkzDEwi",
       "url": "https://www.bilibili.com/video/BV11UbkzDEwi/",
-      "duration": "07:33"
+      "duration": "07:33",
+      "coverUrl": "https://i1.hdslb.com/bfs/archive/546739ff286aed57449943e4ba3634dcce7c8fc3.jpg"
     },
-    "thumb": "assets/episodes/49/thumb.webp",
+    "cover": "assets/covers/49-cover.webp",
+    "coverThumb": "assets/covers/49-cover-thumb.webp",
+    "thumb": "",
     "images": [
       "assets/episodes/49/gallery-01.webp",
       "assets/episodes/49/gallery-02.webp",
@@ -6642,9 +6789,12 @@
     "video": {
       "bvid": "BV1hmeozjE7t",
       "url": "https://www.bilibili.com/video/BV1hmeozjE7t/",
-      "duration": "08:49"
+      "duration": "08:49",
+      "coverUrl": "https://i1.hdslb.com/bfs/archive/e3ed8061f1599cc340486205f0c2a815234a11b0.jpg"
     },
-    "thumb": "assets/episodes/50/thumb.webp",
+    "cover": "assets/covers/50-cover.webp",
+    "coverThumb": "assets/covers/50-cover-thumb.webp",
+    "thumb": "",
     "images": [
       "assets/episodes/50/gallery-01.webp",
       "assets/episodes/50/gallery-02.webp",
@@ -6773,9 +6923,12 @@
     "video": {
       "bvid": "BV1oKaDzAEAM",
       "url": "https://www.bilibili.com/video/BV1oKaDzAEAM/",
-      "duration": "12:20"
+      "duration": "12:20",
+      "coverUrl": "https://i2.hdslb.com/bfs/archive/f9268fe23ac0474abdb5175916bed99d3e289d83.jpg"
     },
-    "thumb": "assets/episodes/51/thumb.webp",
+    "cover": "assets/covers/51-cover.webp",
+    "coverThumb": "assets/covers/51-cover-thumb.webp",
+    "thumb": "",
     "images": [
       "assets/episodes/51/gallery-01.webp",
       "assets/episodes/51/gallery-02.webp",
@@ -6928,9 +7081,12 @@
     "video": {
       "bvid": "BV1EdWNz9EKo",
       "url": "https://www.bilibili.com/video/BV1EdWNz9EKo/",
-      "duration": "09:10"
+      "duration": "09:10",
+      "coverUrl": "https://i1.hdslb.com/bfs/archive/44af8c9dd5920533204e78548dcaf22945672448.jpg"
     },
-    "thumb": "assets/episodes/52/thumb.webp",
+    "cover": "assets/covers/52-cover.webp",
+    "coverThumb": "assets/covers/52-cover-thumb.webp",
+    "thumb": "",
     "images": [
       "assets/episodes/52/gallery-01.webp",
       "assets/episodes/52/gallery-02.webp",
@@ -7087,9 +7243,12 @@
     "video": {
       "bvid": "BV1Lc4mzGEnN",
       "url": "https://www.bilibili.com/video/BV1Lc4mzGEnN/",
-      "duration": "09:51"
+      "duration": "09:51",
+      "coverUrl": "https://i0.hdslb.com/bfs/archive/e6fba4e01ce41b7466dd6993b351078a31ce04aa.jpg"
     },
-    "thumb": "assets/episodes/53/thumb.webp",
+    "cover": "assets/covers/53-cover.webp",
+    "coverThumb": "assets/covers/53-cover-thumb.webp",
+    "thumb": "",
     "images": [
       "assets/episodes/53/gallery-01.webp",
       "assets/episodes/53/gallery-02.webp",
@@ -7218,9 +7377,12 @@
     "video": {
       "bvid": "BV1Tm14BNEp7",
       "url": "https://www.bilibili.com/video/BV1Tm14BNEp7/",
-      "duration": "09:12"
+      "duration": "09:12",
+      "coverUrl": "https://i1.hdslb.com/bfs/archive/d8009ac39f40b1e9e716aceb2927b2a4e8bb67cb.jpg"
     },
-    "thumb": "assets/episodes/54/thumb.webp",
+    "cover": "assets/covers/54-cover.webp",
+    "coverThumb": "assets/covers/54-cover-thumb.webp",
+    "thumb": "",
     "images": [
       "assets/episodes/54/gallery-01.webp",
       "assets/episodes/54/gallery-02.webp",
@@ -7349,9 +7511,12 @@
     "video": {
       "bvid": "BV1ggyPBME3o",
       "url": "https://www.bilibili.com/video/BV1ggyPBME3o/",
-      "duration": "07:07"
+      "duration": "07:07",
+      "coverUrl": "https://i0.hdslb.com/bfs/archive/f7120c8aa7470b6857fb420572779eed1e599279.jpg"
     },
-    "thumb": "assets/episodes/55/thumb.webp",
+    "cover": "assets/covers/55-cover.webp",
+    "coverThumb": "assets/covers/55-cover-thumb.webp",
+    "thumb": "",
     "images": [
       "assets/episodes/55/gallery-01.webp",
       "assets/episodes/55/gallery-02.webp",
@@ -7480,9 +7645,12 @@
     "video": {
       "bvid": "BV1NUmtB3ERL",
       "url": "https://www.bilibili.com/video/BV1NUmtB3ERL/",
-      "duration": "09:11"
+      "duration": "09:11",
+      "coverUrl": "https://i2.hdslb.com/bfs/archive/0ae489569c11e435aa8f7e80236b7ae19d6c33a3.jpg"
     },
-    "thumb": "assets/episodes/56/thumb.webp",
+    "cover": "assets/covers/56-cover.webp",
+    "coverThumb": "assets/covers/56-cover-thumb.webp",
+    "thumb": "",
     "images": [
       "assets/episodes/56/gallery-01.webp",
       "assets/episodes/56/gallery-02.webp",
@@ -7611,9 +7779,12 @@
     "video": {
       "bvid": "BV1csBQBkE5W",
       "url": "https://www.bilibili.com/video/BV1csBQBkE5W/",
-      "duration": "14:38"
+      "duration": "14:38",
+      "coverUrl": "https://i2.hdslb.com/bfs/archive/87149d57e0a3549809f4bb839c168ed4b497fd7e.jpg"
     },
-    "thumb": "assets/episodes/57/thumb.webp",
+    "cover": "assets/covers/57-cover.webp",
+    "coverThumb": "assets/covers/57-cover-thumb.webp",
+    "thumb": "",
     "images": [
       "assets/episodes/57/gallery-01.webp",
       "assets/episodes/57/gallery-02.webp",
@@ -7751,9 +7922,12 @@
     "video": {
       "bvid": "BV11XrVBUEA3",
       "url": "https://www.bilibili.com/video/BV11XrVBUEA3/",
-      "duration": "10:02"
+      "duration": "10:02",
+      "coverUrl": "https://i1.hdslb.com/bfs/archive/6440a64f2ef93330731b3d9d76aa515aa828a2f1.jpg"
     },
-    "thumb": "assets/episodes/58/thumb.webp",
+    "cover": "assets/covers/58-cover.webp",
+    "coverThumb": "assets/covers/58-cover-thumb.webp",
+    "thumb": "",
     "images": [
       "assets/episodes/58/gallery-01.webp",
       "assets/episodes/58/gallery-02.webp",
@@ -7882,9 +8056,12 @@
     "video": {
       "bvid": "BV1gwfoBsEaf",
       "url": "https://www.bilibili.com/video/BV1gwfoBsEaf/",
-      "duration": "09:11"
+      "duration": "09:11",
+      "coverUrl": "https://i1.hdslb.com/bfs/archive/e76dfcf0d2c8fa6cf41660b77364b7e0522a58d9.jpg"
     },
-    "thumb": "assets/episodes/59/thumb.webp",
+    "cover": "assets/covers/59-cover.webp",
+    "coverThumb": "assets/covers/59-cover-thumb.webp",
+    "thumb": "",
     "images": [
       "assets/episodes/59/gallery-01.webp",
       "assets/episodes/59/gallery-02.webp",
@@ -8013,9 +8190,12 @@
     "video": {
       "bvid": "BV1iWPbzPEjR",
       "url": "https://www.bilibili.com/video/BV1iWPbzPEjR/",
-      "duration": "10:02"
+      "duration": "10:02",
+      "coverUrl": "https://i0.hdslb.com/bfs/archive/48485477272ce9c4a3a4325f62e8e42b73a84277.jpg"
     },
-    "thumb": "assets/episodes/60/thumb.webp",
+    "cover": "assets/covers/60-cover.webp",
+    "coverThumb": "assets/covers/60-cover-thumb.webp",
+    "thumb": "",
     "images": [
       "assets/episodes/60/gallery-01.webp",
       "assets/episodes/60/gallery-02.webp",
@@ -8144,9 +8324,12 @@
     "video": {
       "bvid": "BV1NQDxB3EyA",
       "url": "https://www.bilibili.com/video/BV1NQDxB3EyA/",
-      "duration": "09:06"
+      "duration": "09:06",
+      "coverUrl": "https://i1.hdslb.com/bfs/archive/4a30aae0bfaa5002dc42919ee81c66f334307472.jpg"
     },
-    "thumb": "assets/episodes/61/thumb.webp",
+    "cover": "assets/covers/61-cover.webp",
+    "coverThumb": "assets/covers/61-cover-thumb.webp",
+    "thumb": "",
     "images": [
       "assets/episodes/61/gallery-01.webp",
       "assets/episodes/61/gallery-02.webp",
@@ -8275,9 +8458,12 @@
     "video": {
       "bvid": "BV1w1L768Edv",
       "url": "https://www.bilibili.com/video/BV1w1L768Edv/",
-      "duration": "09:28"
+      "duration": "09:28",
+      "coverUrl": "https://i2.hdslb.com/bfs/archive/52b26c95ad0ee8e62ef4cac32907a622316dea04.jpg"
     },
-    "thumb": "assets/episodes/62/thumb.webp",
+    "cover": "assets/covers/62-cover.webp",
+    "coverThumb": "assets/covers/62-cover-thumb.webp",
+    "thumb": "",
     "images": [
       "assets/episodes/62/gallery-01.webp",
       "assets/episodes/62/gallery-02.webp",

@@ -25,9 +25,9 @@ const renderEpisodeLinks = (text = "") => escapeHTML(text).replace(
 );
 
 function renderHero() {
-  const heroImages = episodes.filter((item) => item.images?.length).slice(0, 18);
+  const heroImages = episodes.filter((item) => item.cover || item.coverThumb).slice(0, 12);
   $("#heroCollage").innerHTML = heroImages.map((item) => (
-    `<img src="${item.images[0]}" alt="">`
+    `<img src="${item.cover || item.coverThumb}" alt="" decoding="async">`
   )).join("");
 
   $("#heroStats").innerHTML = [
@@ -133,7 +133,7 @@ function renderEpisodes() {
   $("#resultLine").textContent = `${items.length} / ${episodes.length} 期`;
   $("#episodeGrid").innerHTML = items.map((item) => (
     `<article class="episode-card">
-      <img loading="lazy" src="${item.thumb || item.images?.[0] || ""}" alt="${escapeHTML(item.title)}">
+      <img loading="lazy" decoding="async" src="${item.coverThumb || item.cover || item.thumb || item.images?.[0] || ""}" alt="${escapeHTML(item.title)}">
       <div class="episode-body">
         <div class="episode-meta">
           <a class="chip episode-link" href="#episode-${item.number}" data-open="${item.number}">追色手记 ${item.number}</a>
@@ -164,7 +164,7 @@ function openEpisode(number) {
   )).join("");
 
   $("#detailContent").innerHTML = `
-    <header class="detail-hero" style="background-image: url('${item.images?.[0] || item.thumb || ""}')">
+    <header class="detail-hero" style="background-image: url('${item.cover || item.coverThumb || item.images?.[0] || item.thumb || ""}')">
       <div>
         <div class="detail-meta">
           <a class="chip episode-link" href="#episode-${item.number}" data-open="${item.number}">追色手记 ${item.number}</a>
