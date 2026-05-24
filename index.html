@@ -3,112 +3,535 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="追色手记 62 期 Lightroom 调色学习资料：路线、风格配方、问题排查与视频索引。">
-  <title>LR Learn | 追色手记调色学习手册</title>
-  <link rel="stylesheet" href="styles.css">
+  <title>调色学习资料库 | LR Learn 本地版</title>
+  <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
   <header class="topbar">
-    <a class="brand" href="#top" aria-label="LR Learn">
-      <span class="brand-mark"></span>
-      <span>LR Learn</span>
-    </a>
-    <nav class="nav" aria-label="主导航">
-      <a href="#roadmap">路线</a>
-      <a href="#recipes">配方</a>
-      <a href="#episodes">索引</a>
-      <a href="#trouble">排查</a>
-    </nav>
+    <a class="brand" href="index.html"><span class="brand-mark"></span><span>LR Learn 本地版</span></a>
+    <nav class="nav"><a href="index.html">资料库</a><a href="guide.html">总纲</a></nav>
   </header>
-
-  <main id="top">
-    <section class="hero">
-      <div class="hero-collage" id="heroCollage" aria-hidden="true"></div>
-      <div class="hero-content">
-        <p class="eyebrow">追色手记 01-62</p>
-        <h1>调色学习手册</h1>
-        <p class="hero-copy">从校正、影调、HSL、曲线到仿色迁移，把 62 期经验整理成一套可以反复练习的 Lightroom 学习系统。</p>
-        <div class="search-panel" role="search">
-          <label for="searchInput">检索</label>
-          <input id="searchInput" type="search" placeholder="搜索风格、摄影师、工具或期数">
-          <div class="select-row">
-            <label for="tagSelect">风格</label>
-            <select id="tagSelect"></select>
-          </div>
-        </div>
-        <div class="hero-stats" id="heroStats"></div>
-      </div>
-    </section>
-
-    <section class="band intro-band" aria-labelledby="overviewTitle">
-      <div class="section-head">
-        <p class="eyebrow">Overview</p>
-        <h2 id="overviewTitle">一页总纲</h2>
-      </div>
-      <div class="overview-grid" id="overviewGrid"></div>
-    </section>
-
-    <section class="band" id="roadmap" aria-labelledby="roadmapTitle">
-      <div class="section-head">
-        <p class="eyebrow">Roadmap</p>
-        <h2 id="roadmapTitle">从入门到高阶</h2>
-      </div>
-      <div class="roadmap" id="roadmapGrid"></div>
-    </section>
-
-    <section class="band dark-band" id="recipes" aria-labelledby="recipesTitle">
-      <div class="section-head">
-        <p class="eyebrow">Recipes</p>
-        <h2 id="recipesTitle">风格配方库</h2>
-      </div>
-      <div class="recipe-grid" id="recipeGrid"></div>
-    </section>
-
-    <section class="band" id="episodes" aria-labelledby="episodesTitle">
-      <div class="section-head row-head">
-        <div>
-          <p class="eyebrow">Library</p>
-          <h2 id="episodesTitle">62 期索引</h2>
-        </div>
-        <div class="stage-tabs" id="stageTabs" aria-label="阶段筛选"></div>
-      </div>
-      <div class="result-line" id="resultLine"></div>
-      <div class="episode-grid" id="episodeGrid"></div>
-    </section>
-
-    <section class="band split-band" id="trouble" aria-labelledby="troubleTitle">
-      <div class="section-head">
-        <p class="eyebrow">Diagnosis</p>
-        <h2 id="troubleTitle">常见问题排查</h2>
-      </div>
-      <div class="trouble-grid" id="troubleGrid"></div>
-    </section>
-
-    <section class="band practice-band" aria-labelledby="practiceTitle">
-      <div class="section-head">
-        <p class="eyebrow">Practice</p>
-        <h2 id="practiceTitle">8 周训练计划</h2>
-      </div>
-      <div class="training-grid" id="trainingGrid"></div>
-    </section>
-
-    <section class="band closing-band" aria-labelledby="principlesTitle">
-      <div class="section-head">
-        <p class="eyebrow">Principles</p>
-        <h2 id="principlesTitle">最终记住的 12 条经验</h2>
-      </div>
-      <ol class="principle-list" id="principleList"></ol>
-    </section>
-  </main>
-
-  <div class="detail-panel" id="detailPanel" hidden>
-    <div class="detail-scrim" data-close></div>
-    <article class="detail-sheet" aria-modal="true" role="dialog" aria-labelledby="detailTitle">
-      <button class="close-button" type="button" data-close aria-label="关闭">×</button>
-      <div id="detailContent"></div>
-    </article>
+  
+<section class="hero">
+  <div class="hero-grid"><img src="assets/covers/03-cover.webp" alt=""><img src="assets/covers/12-cover.webp" alt=""><img src="assets/covers/40-cover.webp" alt=""><img src="assets/covers/49-cover.webp" alt=""><img src="assets/covers/58-cover.webp" alt=""><img src="assets/covers/01-cover.webp" alt=""><img src="assets/covers/29-cover.webp" alt=""><img src="assets/covers/36-cover.webp" alt=""><img src="assets/covers/44-cover.webp" alt=""><img src="assets/covers/50-cover.webp" alt=""><img src="assets/covers/51-cover.webp" alt=""><img src="assets/covers/62-cover.webp" alt=""><img src="assets/covers/02-cover.webp" alt=""><img src="assets/covers/15-cover.webp" alt=""><img src="assets/covers/23-cover.webp" alt=""><img src="assets/covers/37-cover.webp" alt=""><img src="assets/covers/39-cover.webp" alt=""><img src="assets/covers/48-cover.webp" alt=""></div>
+  <div class="hero-content">
+    <p class="eyebrow">Local Edition</p>
+    <h1>调色学习资料库</h1>
+    <p class="hero-copy">本地完整版，卡片直达独立内容页，尽量保留每份 Word 里的正文、表格和全部图片。</p>
+    <div class="searchbar"><input id="searchInput" type="search" placeholder="搜索风格、摄影师、工具或期数"><select id="stageSelect"><option value="全部">全部</option><option value="中阶">中阶</option><option value="入门">入门</option><option value="入门-中阶">入门-中阶</option><option value="入门-高阶">入门-高阶</option><option value="高阶">高阶</option></select></div>
+    <div class="stats"><div class="stat"><strong>62</strong><span>单期资料</span></div><div class="stat"><strong>2420</strong><span>Word 图片</span></div><div class="stat"><strong>10</strong><span>风格配方</span></div></div>
   </div>
+</section>
+<section class="band">
+  <div class="section-head"><div><p class="eyebrow">Overview</p><h2>一页总纲</h2></div><a class="episode-pill" href="guide.html">打开总纲</a></div>
+  <div class="quick-grid"><article class="quick-card"><h3>核心判断</h3><p>调色的第一步不是动滑块，而是判断照片的问题：曝光、白平衡、反差、肤色、环境色、质感和主体关系。</p></article><article class="quick-card"><h3>核心顺序</h3><p>先影调，再色彩，再质感，再局部。顺序错了，后面会越修越乱。</p></article><article class="quick-card"><h3>核心能力</h3><p>入门学会校正，中阶学会风格化，高阶学会仿色和迁移。</p></article><article class="quick-card"><h3>核心心法</h3><p>参数只能复现一次，思路才能迁移到下一张照片。</p></article></div>
+</section>
+<section class="band">
+  <div class="section-head"><div><p class="eyebrow">Recipes</p><h2>风格配方库顺序</h2></div></div>
+  <div class="recipe-grid"><article class="recipe-card"><h3>干净日系</h3><p>偏亮，黑位轻，反差柔。</p><p>肤色白净，环境偏冷或低黄。</p><div class="episode-link-list"><a class="episode-pill" href="episodes/03.html">03</a><a class="episode-pill" href="episodes/12.html">12</a><a class="episode-pill" href="episodes/40.html">40</a><a class="episode-pill" href="episodes/49.html">49</a><a class="episode-pill" href="episodes/58.html">58</a></div></article><article class="recipe-card"><h3>胶片灰</h3><p>抬黑压白，中间调柔。</p><p>低饱和，暖肤色，暗部轻微偏冷。</p><div class="episode-link-list"><a class="episode-pill" href="episodes/01.html">01</a><a class="episode-pill" href="episodes/29.html">29</a><a class="episode-pill" href="episodes/36.html">36</a><a class="episode-pill" href="episodes/44.html">44</a><a class="episode-pill" href="episodes/50.html">50</a><a class="episode-pill" href="episodes/51.html">51</a><a class="episode-pill" href="episodes/62.html">62</a></div></article><article class="recipe-card"><h3>电影街拍</h3><p>暗部有重量，高光有方向。</p><p>少色、低饱和、冷暖对比。</p><div class="episode-link-list"><a class="episode-pill" href="episodes/02.html">02</a><a class="episode-pill" href="episodes/15.html">15</a><a class="episode-pill" href="episodes/23.html">23</a><a class="episode-pill" href="episodes/37.html">37</a><a class="episode-pill" href="episodes/39.html">39</a><a class="episode-pill" href="episodes/48.html">48</a></div></article><article class="recipe-card"><h3>橙青夜景</h3><p>整体偏暗，灯光保留亮点。</p><p>肤色/暖光橙红，暗部/冷光青蓝。</p><div class="episode-link-list"><a class="episode-pill" href="episodes/16.html">16</a><a class="episode-pill" href="episodes/30.html">30</a><a class="episode-pill" href="episodes/38.html">38</a></div></article><article class="recipe-card"><h3>暖系人像</h3><p>亮部柔，阴影不过死。</p><p>肤色和高光偏暖，背景少杂色。</p><div class="episode-link-list"><a class="episode-pill" href="episodes/09.html">09</a><a class="episode-pill" href="episodes/13.html">13</a><a class="episode-pill" href="episodes/31.html">31</a><a class="episode-pill" href="episodes/60.html">60</a></div></article><article class="recipe-card"><h3>蓝绿清爽</h3><p>中高调，反差适中。</p><p>绿色偏青，蓝色更干净。</p><div class="episode-link-list"><a class="episode-pill" href="episodes/08.html">08</a><a class="episode-pill" href="episodes/21.html">21</a><a class="episode-pill" href="episodes/55.html">55</a></div></article><article class="recipe-card"><h3>暗调质感</h3><p>低调，黑位扎实但有细节。</p><p>色彩少，局部高光抓视线。</p><div class="episode-link-list"><a class="episode-pill" href="episodes/32.html">32</a><a class="episode-pill" href="episodes/43.html">43</a><a class="episode-pill" href="episodes/61.html">61</a></div></article><article class="recipe-card"><h3>动漫梦幻</h3><p>亮部通透，色块清楚。</p><p>天空、粉紫、青蓝或暖色统一。</p><div class="episode-link-list"><a class="episode-pill" href="episodes/25.html">25</a><a class="episode-pill" href="episodes/34.html">34</a><a class="episode-pill" href="episodes/35.html">35</a><a class="episode-pill" href="episodes/41.html">41</a></div></article><article class="recipe-card"><h3>风光紫霞</h3><p>大光比和层次优先。</p><p>天空/远景/地面分区处理。</p><div class="episode-link-list"><a class="episode-pill" href="episodes/27.html">27</a><a class="episode-pill" href="episodes/56.html">56</a><a class="episode-pill" href="episodes/57.html">57</a></div></article><article class="recipe-card"><h3>油画质感</h3><p>中间调厚，反差稳。</p><p>暖冷有层次，饱和不炸。</p><div class="episode-link-list"><a class="episode-pill" href="episodes/46.html">46</a><a class="episode-pill" href="episodes/53.html">53</a></div></article></div>
+</section>
+<section class="band" id="episodes">
+  <div class="section-head"><div><p class="eyebrow">Library</p><h2>学习卡</h2></div><p id="resultLine"></p></div>
+  <div class="card-grid"><article class="episode-card" data-stage="入门" data-search="03 《追色手记03》学习资料 滨田英明日系小清新：从摄影风格拆解到 lightroom 仿色实操 日系小清新 入门 说明：本文根据视频音频转写、画面截取与内容校对整理，保留学习所需的方法、步骤和关键截图，不包含逐字稿。">
+  <a href="episodes/03.html"><img loading="lazy" src="assets/covers/03-thumb.webp" alt="《追色手记03》学习资料"></a>
+  <div class="episode-body">
+    <div class="chips"><span class="chip">追色手记 03</span><span class="chip">入门</span><span class="chip">日系小清新</span></div>
+    <h3>滨田英明日系小清新：从摄影风格拆解到 Lightroom 仿色实操</h3>
+    <p>说明：本文根据视频音频转写、画面截取与内容校对整理，保留学习所需的方法、步骤和关键截图，不包含逐字稿。</p>
+    <a class="open-link" href="episodes/03.html">打开完整资料页</a>
+  </div>
+</article><article class="episode-card" data-stage="入门" data-search="12 《追色手记12》学习资料 荒真人 / ara makoto：干净清新环境人像与 lightroom 仿色实操 干净日系 入门 说明：本文根据视频音频转写、画面截取与内容校对整理，保留学习所需的方法、步骤和关键截图，不包含逐字稿。">
+  <a href="episodes/12.html"><img loading="lazy" src="assets/covers/12-thumb.webp" alt="《追色手记12》学习资料"></a>
+  <div class="episode-body">
+    <div class="chips"><span class="chip">追色手记 12</span><span class="chip">入门</span><span class="chip">干净日系</span></div>
+    <h3>荒真人 / Ara Makoto：干净清新环境人像与 Lightroom 仿色实操</h3>
+    <p>说明：本文根据视频音频转写、画面截取与内容校对整理，保留学习所需的方法、步骤和关键截图，不包含逐字稿。</p>
+    <a class="open-link" href="episodes/12.html">打开完整资料页</a>
+  </div>
+</article><article class="episode-card" data-stage="入门" data-search="40 《追色手记40》学习资料 kai photo1小清新仿色：视频拆解与 lightroom 实操复盘 小清新人像 入门 说明：本文根据视频音频转写、画面截取与内容校对整理，保留学习所需的方法、步骤和关键截图，不包含逐字稿。">
+  <a href="episodes/40.html"><img loading="lazy" src="assets/covers/40-thumb.webp" alt="《追色手记40》学习资料"></a>
+  <div class="episode-body">
+    <div class="chips"><span class="chip">追色手记 40</span><span class="chip">入门</span><span class="chip">小清新人像</span></div>
+    <h3>Kai photo1小清新仿色：视频拆解与 Lightroom 实操复盘</h3>
+    <p>说明：本文根据视频音频转写、画面截取与内容校对整理，保留学习所需的方法、步骤和关键截图，不包含逐字稿。</p>
+    <a class="open-link" href="episodes/40.html">打开完整资料页</a>
+  </div>
+</article><article class="episode-card" data-stage="入门" data-search="49 《追色手记49》学习资料 woodylaulau：干净日系感与通透肤色实操 干净日系实操 入门 说明：本文根据视频音频转写、画面截取与内容校对整理，保留学习所需的方法、步骤和关键截图，不包含逐字稿。">
+  <a href="episodes/49.html"><img loading="lazy" src="assets/covers/49-thumb.webp" alt="《追色手记49》学习资料"></a>
+  <div class="episode-body">
+    <div class="chips"><span class="chip">追色手记 49</span><span class="chip">入门</span><span class="chip">干净日系实操</span></div>
+    <h3>Woodylaulau：干净日系感与通透肤色实操</h3>
+    <p>说明：本文根据视频音频转写、画面截取与内容校对整理，保留学习所需的方法、步骤和关键截图，不包含逐字稿。</p>
+    <a class="open-link" href="episodes/49.html">打开完整资料页</a>
+  </div>
+</article><article class="episode-card" data-stage="入门" data-search="58 《追色手记58》学习资料 相机原图发黄：两步调出日系清新人像 偏黄原图校正 入门 说明：本文根据视频音频转写、画面截取与内容校对整理，保留学习所需的方法、步骤和关键截图，不包含逐字稿。">
+  <a href="episodes/58.html"><img loading="lazy" src="assets/covers/58-thumb.webp" alt="《追色手记58》学习资料"></a>
+  <div class="episode-body">
+    <div class="chips"><span class="chip">追色手记 58</span><span class="chip">入门</span><span class="chip">偏黄原图校正</span></div>
+    <h3>相机原图发黄：两步调出日系清新人像</h3>
+    <p>说明：本文根据视频音频转写、画面截取与内容校对整理，保留学习所需的方法、步骤和关键截图，不包含逐字稿。</p>
+    <a class="open-link" href="episodes/58.html">打开完整资料页</a>
+  </div>
+</article><article class="episode-card" data-stage="入门-中阶" data-search="01 《追色手记01》学习资料 泽村洋兵日系胶片灰调色：从仿色思路到 lightroom 曲线实操 胶片灰/曲线 入门-中阶 说明：本文根据视频音频转写、画面截取与内容校对整理，保留学习所需的方法、步骤和关键截图，不包含逐字稿。">
+  <a href="episodes/01.html"><img loading="lazy" src="assets/covers/01-thumb.webp" alt="《追色手记01》学习资料"></a>
+  <div class="episode-body">
+    <div class="chips"><span class="chip">追色手记 01</span><span class="chip">入门-中阶</span><span class="chip">胶片灰/曲线</span></div>
+    <h3>泽村洋兵日系胶片灰调色：从仿色思路到 Lightroom 曲线实操</h3>
+    <p>说明：本文根据视频音频转写、画面截取与内容校对整理，保留学习所需的方法、步骤和关键截图，不包含逐字稿。</p>
+    <a class="open-link" href="episodes/01.html">打开完整资料页</a>
+  </div>
+</article><article class="episode-card" data-stage="中阶" data-search="29 《追色手记29》学习资料 大林直行静谧胶片风：视频拆解与 lightroom 实操复盘 静谧胶片 中阶 说明：本文根据视频音频转写、画面截取与内容校对整理，保留学习所需的方法、步骤和关键截图，不包含逐字稿。">
+  <a href="episodes/29.html"><img loading="lazy" src="assets/covers/29-thumb.webp" alt="《追色手记29》学习资料"></a>
+  <div class="episode-body">
+    <div class="chips"><span class="chip">追色手记 29</span><span class="chip">中阶</span><span class="chip">静谧胶片</span></div>
+    <h3>大林直行静谧胶片风：视频拆解与 Lightroom 实操复盘</h3>
+    <p>说明：本文根据视频音频转写、画面截取与内容校对整理，保留学习所需的方法、步骤和关键截图，不包含逐字稿。</p>
+    <a class="open-link" href="episodes/29.html">打开完整资料页</a>
+  </div>
+</article><article class="episode-card" data-stage="中阶" data-search="36 《追色手记36》学习资料 柯达胶片质感调色：视频拆解与 lightroom 实操复盘 柯达胶片 中阶 说明：本文根据视频音频转写、画面截取与内容校对整理，保留学习所需的方法、步骤和关键截图，不包含逐字稿。">
+  <a href="episodes/36.html"><img loading="lazy" src="assets/covers/36-thumb.webp" alt="《追色手记36》学习资料"></a>
+  <div class="episode-body">
+    <div class="chips"><span class="chip">追色手记 36</span><span class="chip">中阶</span><span class="chip">柯达胶片</span></div>
+    <h3>柯达胶片质感调色：视频拆解与 Lightroom 实操复盘</h3>
+    <p>说明：本文根据视频音频转写、画面截取与内容校对整理，保留学习所需的方法、步骤和关键截图，不包含逐字稿。</p>
+    <a class="open-link" href="episodes/36.html">打开完整资料页</a>
+  </div>
+</article><article class="episode-card" data-stage="高阶" data-search="44 《追色手记44》学习资料 铃木达也胶片感仿色：视频拆解与 lightroom 实操复盘 胶片感人像 高阶 说明：本文根据视频音频转写、画面截取与内容校对整理，保留学习所需的方法、步骤和关键截图，不包含逐字稿。">
+  <a href="episodes/44.html"><img loading="lazy" src="assets/covers/44-thumb.webp" alt="《追色手记44》学习资料"></a>
+  <div class="episode-body">
+    <div class="chips"><span class="chip">追色手记 44</span><span class="chip">高阶</span><span class="chip">胶片感人像</span></div>
+    <h3>铃木达也胶片感仿色：视频拆解与 Lightroom 实操复盘</h3>
+    <p>说明：本文根据视频音频转写、画面截取与内容校对整理，保留学习所需的方法、步骤和关键截图，不包含逐字稿。</p>
+    <a class="open-link" href="episodes/44.html">打开完整资料页</a>
+  </div>
+</article><article class="episode-card" data-stage="中阶" data-search="50 《追色手记50》学习资料 柯达5219胶片模拟：视频拆解与 lightroom 实操复盘 柯达5219 中阶 说明：本文根据视频音频转写、画面截取与内容校对整理，保留学习所需的方法、步骤和关键截图，不包含逐字稿。">
+  <a href="episodes/50.html"><img loading="lazy" src="assets/covers/50-thumb.webp" alt="《追色手记50》学习资料"></a>
+  <div class="episode-body">
+    <div class="chips"><span class="chip">追色手记 50</span><span class="chip">中阶</span><span class="chip">柯达5219</span></div>
+    <h3>柯达5219胶片模拟：视频拆解与 Lightroom 实操复盘</h3>
+    <p>说明：本文根据视频音频转写、画面截取与内容校对整理，保留学习所需的方法、步骤和关键截图，不包含逐字稿。</p>
+    <a class="open-link" href="episodes/50.html">打开完整资料页</a>
+  </div>
+</article><article class="episode-card" data-stage="中阶" data-search="51 《追色手记51》学习资料 复古胶片曲线调色：视频拆解与 lightroom 实操复盘 复古胶片曲线 中阶 说明：本文根据视频音频转写、画面截取与内容校对整理，保留学习所需的方法、步骤和关键截图，不包含逐字稿。">
+  <a href="episodes/51.html"><img loading="lazy" src="assets/covers/51-thumb.webp" alt="《追色手记51》学习资料"></a>
+  <div class="episode-body">
+    <div class="chips"><span class="chip">追色手记 51</span><span class="chip">中阶</span><span class="chip">复古胶片曲线</span></div>
+    <h3>复古胶片曲线调色：视频拆解与 Lightroom 实操复盘</h3>
+    <p>说明：本文根据视频音频转写、画面截取与内容校对整理，保留学习所需的方法、步骤和关键截图，不包含逐字稿。</p>
+    <a class="open-link" href="episodes/51.html">打开完整资料页</a>
+  </div>
+</article><article class="episode-card" data-stage="入门-中阶" data-search="62 《追色手记62》学习资料 阴天高级胶片风调色：视频拆解与 lightroom 实操复盘 阴天胶片风 入门-中阶 说明：本文根据视频音频转写、画面截取与内容校对整理，保留学习所需的方法、步骤和关键截图，不包含逐字稿。">
+  <a href="episodes/62.html"><img loading="lazy" src="assets/covers/62-thumb.webp" alt="《追色手记62》学习资料"></a>
+  <div class="episode-body">
+    <div class="chips"><span class="chip">追色手记 62</span><span class="chip">入门-中阶</span><span class="chip">阴天胶片风</span></div>
+    <h3>阴天高级胶片风调色：视频拆解与 Lightroom 实操复盘</h3>
+    <p>说明：本文根据视频音频转写、画面截取与内容校对整理，保留学习所需的方法、步骤和关键截图，不包含逐字稿。</p>
+    <a class="open-link" href="episodes/62.html">打开完整资料页</a>
+  </div>
+</article><article class="episode-card" data-stage="中阶" data-search="02 《追色手记02》学习资料 保井崇志街头光影摄影：视频拆解与 lightroom 实操复盘 街头光影 中阶 说明：本文根据视频音频转写、画面截取与内容校对整理，保留学习所需的方法、步骤和关键截图，不包含逐字稿。">
+  <a href="episodes/02.html"><img loading="lazy" src="assets/covers/02-thumb.webp" alt="《追色手记02》学习资料"></a>
+  <div class="episode-body">
+    <div class="chips"><span class="chip">追色手记 02</span><span class="chip">中阶</span><span class="chip">街头光影</span></div>
+    <h3>保井崇志街头光影摄影：视频拆解与 Lightroom 实操复盘</h3>
+    <p>说明：本文根据视频音频转写、画面截取与内容校对整理，保留学习所需的方法、步骤和关键截图，不包含逐字稿。</p>
+    <a class="open-link" href="episodes/02.html">打开完整资料页</a>
+  </div>
+</article><article class="episode-card" data-stage="中阶" data-search="15 《追色手记15》学习资料 电影感扫街调色：视频拆解与 lightroom 实操复盘 电影感扫街 中阶 说明：本文根据视频音频转写、画面截取与内容校对整理，保留学习所需的方法、步骤和关键截图，不包含逐字稿。">
+  <a href="episodes/15.html"><img loading="lazy" src="assets/covers/15-thumb.webp" alt="《追色手记15》学习资料"></a>
+  <div class="episode-body">
+    <div class="chips"><span class="chip">追色手记 15</span><span class="chip">中阶</span><span class="chip">电影感扫街</span></div>
+    <h3>电影感扫街调色：视频拆解与 Lightroom 实操复盘</h3>
+    <p>说明：本文根据视频音频转写、画面截取与内容校对整理，保留学习所需的方法、步骤和关键截图，不包含逐字稿。</p>
+    <a class="open-link" href="episodes/15.html">打开完整资料页</a>
+  </div>
+</article><article class="episode-card" data-stage="中阶" data-search="23 《追色手记23》学习资料 电影感氛围调色：视频拆解与 lightroom 实操复盘 电影氛围 中阶 说明：本文根据视频音频转写、画面截取与内容校对整理，保留学习所需的方法、步骤和关键截图，不包含逐字稿。">
+  <a href="episodes/23.html"><img loading="lazy" src="assets/covers/23-thumb.webp" alt="《追色手记23》学习资料"></a>
+  <div class="episode-body">
+    <div class="chips"><span class="chip">追色手记 23</span><span class="chip">中阶</span><span class="chip">电影氛围</span></div>
+    <h3>电影感氛围调色：视频拆解与 Lightroom 实操复盘</h3>
+    <p>说明：本文根据视频音频转写、画面截取与内容校对整理，保留学习所需的方法、步骤和关键截图，不包含逐字稿。</p>
+    <a class="open-link" href="episodes/23.html">打开完整资料页</a>
+  </div>
+</article><article class="episode-card" data-stage="高阶" data-search="37 《追色手记37》学习资料 billy dinh电影感街拍调色：视频拆解与 lightroom 实操复盘 电影感街拍 高阶 说明：本文根据视频音频转写、画面截取与内容校对整理，保留学习所需的方法、步骤和关键截图，不包含逐字稿。">
+  <a href="episodes/37.html"><img loading="lazy" src="assets/covers/37-thumb.webp" alt="《追色手记37》学习资料"></a>
+  <div class="episode-body">
+    <div class="chips"><span class="chip">追色手记 37</span><span class="chip">高阶</span><span class="chip">电影感街拍</span></div>
+    <h3>Billy Dinh电影感街拍调色：视频拆解与 Lightroom 实操复盘</h3>
+    <p>说明：本文根据视频音频转写、画面截取与内容校对整理，保留学习所需的方法、步骤和关键截图，不包含逐字稿。</p>
+    <a class="open-link" href="episodes/37.html">打开完整资料页</a>
+  </div>
+</article><article class="episode-card" data-stage="高阶" data-search="39 《追色手记39》学习资料 monaris电影感街头摄影：视频拆解与 lightroom 实操复盘 街头电影感 高阶 说明：本文根据视频音频转写、画面截取与内容校对整理，保留学习所需的方法、步骤和关键截图，不包含逐字稿。">
+  <a href="episodes/39.html"><img loading="lazy" src="assets/covers/39-thumb.webp" alt="《追色手记39》学习资料"></a>
+  <div class="episode-body">
+    <div class="chips"><span class="chip">追色手记 39</span><span class="chip">高阶</span><span class="chip">街头电影感</span></div>
+    <h3>Monaris电影感街头摄影：视频拆解与 Lightroom 实操复盘</h3>
+    <p>说明：本文根据视频音频转写、画面截取与内容校对整理，保留学习所需的方法、步骤和关键截图，不包含逐字稿。</p>
+    <a class="open-link" href="episodes/39.html">打开完整资料页</a>
+  </div>
+</article><article class="episode-card" data-stage="中阶" data-search="48 《追色手记48》学习资料 tk north街拍色调：视频拆解与 lightroom 实操复盘 街拍色调 中阶 说明：本文根据视频音频转写、画面截取与内容校对整理，保留学习所需的方法、步骤和关键截图，不包含逐字稿。">
+  <a href="episodes/48.html"><img loading="lazy" src="assets/covers/48-thumb.webp" alt="《追色手记48》学习资料"></a>
+  <div class="episode-body">
+    <div class="chips"><span class="chip">追色手记 48</span><span class="chip">中阶</span><span class="chip">街拍色调</span></div>
+    <h3>tk north街拍色调：视频拆解与 Lightroom 实操复盘</h3>
+    <p>说明：本文根据视频音频转写、画面截取与内容校对整理，保留学习所需的方法、步骤和关键截图，不包含逐字稿。</p>
+    <a class="open-link" href="episodes/48.html">打开完整资料页</a>
+  </div>
+</article><article class="episode-card" data-stage="中阶" data-search="16 《追色手记16》学习资料 夜幕梦幻色调：视频拆解与 lightroom 实操复盘 夜幕梦幻 中阶 说明：本文根据视频音频转写、画面截取与内容校对整理，保留学习所需的方法、步骤和关键截图，不包含逐字稿。">
+  <a href="episodes/16.html"><img loading="lazy" src="assets/covers/16-thumb.webp" alt="《追色手记16》学习资料"></a>
+  <div class="episode-body">
+    <div class="chips"><span class="chip">追色手记 16</span><span class="chip">中阶</span><span class="chip">夜幕梦幻</span></div>
+    <h3>夜幕梦幻色调：视频拆解与 Lightroom 实操复盘</h3>
+    <p>说明：本文根据视频音频转写、画面截取与内容校对整理，保留学习所需的方法、步骤和关键截图，不包含逐字稿。</p>
+    <a class="open-link" href="episodes/16.html">打开完整资料页</a>
+  </div>
+</article><article class="episode-card" data-stage="高阶" data-search="30 《追色手记30》学习资料 dixon kwan：浓郁橙青夜景人像与 lightroom 仿色实操 橙青夜景 高阶 说明：本文根据视频音频转写、画面截取与内容校对整理，保留学习所需的方法、步骤和关键截图，不包含逐字稿。">
+  <a href="episodes/30.html"><img loading="lazy" src="assets/covers/30-thumb.webp" alt="《追色手记30》学习资料"></a>
+  <div class="episode-body">
+    <div class="chips"><span class="chip">追色手记 30</span><span class="chip">高阶</span><span class="chip">橙青夜景</span></div>
+    <h3>Dixon Kwan：浓郁橙青夜景人像与 Lightroom 仿色实操</h3>
+    <p>说明：本文根据视频音频转写、画面截取与内容校对整理，保留学习所需的方法、步骤和关键截图，不包含逐字稿。</p>
+    <a class="open-link" href="episodes/30.html">打开完整资料页</a>
+  </div>
+</article><article class="episode-card" data-stage="高阶" data-search="38 《追色手记38》学习资料 jungraphy梦幻夜景调色：视频拆解与 lightroom 实操复盘 梦幻夜景 高阶 说明：本文根据视频音频转写、画面截取与内容校对整理，保留学习所需的方法、步骤和关键截图，不包含逐字稿。">
+  <a href="episodes/38.html"><img loading="lazy" src="assets/covers/38-thumb.webp" alt="《追色手记38》学习资料"></a>
+  <div class="episode-body">
+    <div class="chips"><span class="chip">追色手记 38</span><span class="chip">高阶</span><span class="chip">梦幻夜景</span></div>
+    <h3>Jungraphy梦幻夜景调色：视频拆解与 Lightroom 实操复盘</h3>
+    <p>说明：本文根据视频音频转写、画面截取与内容校对整理，保留学习所需的方法、步骤和关键截图，不包含逐字稿。</p>
+    <a class="open-link" href="episodes/38.html">打开完整资料页</a>
+  </div>
+</article><article class="episode-card" data-stage="入门" data-search="09 《追色手记09》学习资料 加藤光暖色调：视频拆解与 lightroom 实操复盘 暖色调 入门 说明：本文根据视频音频转写、画面截取与内容校对整理，保留学习所需的方法、步骤和关键截图，不包含逐字稿。">
+  <a href="episodes/09.html"><img loading="lazy" src="assets/covers/09-thumb.webp" alt="《追色手记09》学习资料"></a>
+  <div class="episode-body">
+    <div class="chips"><span class="chip">追色手记 09</span><span class="chip">入门</span><span class="chip">暖色调</span></div>
+    <h3>加藤光暖色调：视频拆解与 Lightroom 实操复盘</h3>
+    <p>说明：本文根据视频音频转写、画面截取与内容校对整理，保留学习所需的方法、步骤和关键截图，不包含逐字稿。</p>
+    <a class="open-link" href="episodes/09.html">打开完整资料页</a>
+  </div>
+</article><article class="episode-card" data-stage="入门" data-search="13 《追色手记13》学习资料 暖系人像氛围调色：视频拆解与 lightroom 实操复盘 暖系人像 入门 说明：本文根据视频音频转写、画面截取与内容校对整理，保留学习所需的方法、步骤和关键截图，不包含逐字稿。">
+  <a href="episodes/13.html"><img loading="lazy" src="assets/covers/13-thumb.webp" alt="《追色手记13》学习资料"></a>
+  <div class="episode-body">
+    <div class="chips"><span class="chip">追色手记 13</span><span class="chip">入门</span><span class="chip">暖系人像</span></div>
+    <h3>暖系人像氛围调色：视频拆解与 Lightroom 实操复盘</h3>
+    <p>说明：本文根据视频音频转写、画面截取与内容校对整理，保留学习所需的方法、步骤和关键截图，不包含逐字稿。</p>
+    <a class="open-link" href="episodes/13.html">打开完整资料页</a>
+  </div>
+</article><article class="episode-card" data-stage="中阶" data-search="31 《追色手记31》学习资料 故事感婚礼家庭照色调：视频拆解与 lightroom 实操复盘 故事感色调 中阶 说明：本文根据视频音频转写、画面截取与内容校对整理，保留学习所需的方法、步骤和关键截图，不包含逐字稿。">
+  <a href="episodes/31.html"><img loading="lazy" src="assets/covers/31-thumb.webp" alt="《追色手记31》学习资料"></a>
+  <div class="episode-body">
+    <div class="chips"><span class="chip">追色手记 31</span><span class="chip">中阶</span><span class="chip">故事感色调</span></div>
+    <h3>故事感婚礼家庭照色调：视频拆解与 Lightroom 实操复盘</h3>
+    <p>说明：本文根据视频音频转写、画面截取与内容校对整理，保留学习所需的方法、步骤和关键截图，不包含逐字稿。</p>
+    <a class="open-link" href="episodes/31.html">打开完整资料页</a>
+  </div>
+</article><article class="episode-card" data-stage="高阶" data-search="60 《追色手记60》学习资料 marat safin暖青人像调色：视频拆解与 lightroom 实操复盘 暖青人像 高阶 说明：本文根据视频音频转写、画面截取与内容校对整理，保留学习所需的方法、步骤和关键截图，不包含逐字稿。">
+  <a href="episodes/60.html"><img loading="lazy" src="assets/covers/60-thumb.webp" alt="《追色手记60》学习资料"></a>
+  <div class="episode-body">
+    <div class="chips"><span class="chip">追色手记 60</span><span class="chip">高阶</span><span class="chip">暖青人像</span></div>
+    <h3>Marat Safin暖青人像调色：视频拆解与 Lightroom 实操复盘</h3>
+    <p>说明：本文根据视频音频转写、画面截取与内容校对整理，保留学习所需的方法、步骤和关键截图，不包含逐字稿。</p>
+    <a class="open-link" href="episodes/60.html">打开完整资料页</a>
+  </div>
+</article><article class="episode-card" data-stage="入门-中阶" data-search="08 《追色手记08》学习资料 岩仓诗织 / iwakura shiori：故事感青蓝色调与 lightroom 仿色实操 青蓝色调 入门-中阶 说明：本文根据视频音频转写、画面截取与内容校对整理，保留学习所需的方法、步骤和关键截图，不包含逐字稿。">
+  <a href="episodes/08.html"><img loading="lazy" src="assets/covers/08-thumb.webp" alt="《追色手记08》学习资料"></a>
+  <div class="episode-body">
+    <div class="chips"><span class="chip">追色手记 08</span><span class="chip">入门-中阶</span><span class="chip">青蓝色调</span></div>
+    <h3>岩仓诗织 / Iwakura Shiori：故事感青蓝色调与 Lightroom 仿色实操</h3>
+    <p>说明：本文根据视频音频转写、画面截取与内容校对整理，保留学习所需的方法、步骤和关键截图，不包含逐字稿。</p>
+    <a class="open-link" href="episodes/08.html">打开完整资料页</a>
+  </div>
+</article><article class="episode-card" data-stage="中阶" data-search="21 《追色手记21》学习资料 元气蓝调调色：视频拆解与 lightroom 实操复盘 元气蓝调 中阶 说明：本文根据视频音频转写、画面截取与内容校对整理，保留学习所需的方法、步骤和关键截图，不包含逐字稿。">
+  <a href="episodes/21.html"><img loading="lazy" src="assets/covers/21-thumb.webp" alt="《追色手记21》学习资料"></a>
+  <div class="episode-body">
+    <div class="chips"><span class="chip">追色手记 21</span><span class="chip">中阶</span><span class="chip">元气蓝调</span></div>
+    <h3>元气蓝调调色：视频拆解与 Lightroom 实操复盘</h3>
+    <p>说明：本文根据视频音频转写、画面截取与内容校对整理，保留学习所需的方法、步骤和关键截图，不包含逐字稿。</p>
+    <a class="open-link" href="episodes/21.html">打开完整资料页</a>
+  </div>
+</article><article class="episode-card" data-stage="入门-中阶" data-search="55 《追色手记55》学习资料 清新蓝绿摄影风格：视频拆解与 lightroom 实操复盘 蓝绿氛围 入门-中阶 说明：本文根据视频音频转写、画面截取与内容校对整理，保留学习所需的方法、步骤和关键截图，不包含逐字稿。">
+  <a href="episodes/55.html"><img loading="lazy" src="assets/covers/55-thumb.webp" alt="《追色手记55》学习资料"></a>
+  <div class="episode-body">
+    <div class="chips"><span class="chip">追色手记 55</span><span class="chip">入门-中阶</span><span class="chip">蓝绿氛围</span></div>
+    <h3>清新蓝绿摄影风格：视频拆解与 Lightroom 实操复盘</h3>
+    <p>说明：本文根据视频音频转写、画面截取与内容校对整理，保留学习所需的方法、步骤和关键截图，不包含逐字稿。</p>
+    <a class="open-link" href="episodes/55.html">打开完整资料页</a>
+  </div>
+</article><article class="episode-card" data-stage="高阶" data-search="32 《追色手记32》学习资料 黑神话悟空暗黑风调色：视频拆解与 lightroom 实操复盘 暗黑风 高阶 说明：本文根据视频音频转写、画面截取与内容校对整理，保留学习所需的方法、步骤和关键截图，不包含逐字稿。">
+  <a href="episodes/32.html"><img loading="lazy" src="assets/covers/32-thumb.webp" alt="《追色手记32》学习资料"></a>
+  <div class="episode-body">
+    <div class="chips"><span class="chip">追色手记 32</span><span class="chip">高阶</span><span class="chip">暗黑风</span></div>
+    <h3>黑神话悟空暗黑风调色：视频拆解与 Lightroom 实操复盘</h3>
+    <p>说明：本文根据视频音频转写、画面截取与内容校对整理，保留学习所需的方法、步骤和关键截图，不包含逐字稿。</p>
+    <a class="open-link" href="episodes/32.html">打开完整资料页</a>
+  </div>
+</article><article class="episode-card" data-stage="高阶" data-search="43 《追色手记43》学习资料 品川力暗调质感风格：视频拆解与 lightroom 实操复盘 暗调质感 高阶 说明：本文根据视频音频转写、画面截取与内容校对整理，保留学习所需的方法、步骤和关键截图，不包含逐字稿。">
+  <a href="episodes/43.html"><img loading="lazy" src="assets/covers/43-thumb.webp" alt="《追色手记43》学习资料"></a>
+  <div class="episode-body">
+    <div class="chips"><span class="chip">追色手记 43</span><span class="chip">高阶</span><span class="chip">暗调质感</span></div>
+    <h3>品川力暗调质感风格：视频拆解与 Lightroom 实操复盘</h3>
+    <p>说明：本文根据视频音频转写、画面截取与内容校对整理，保留学习所需的方法、步骤和关键截图，不包含逐字稿。</p>
+    <a class="open-link" href="episodes/43.html">打开完整资料页</a>
+  </div>
+</article><article class="episode-card" data-stage="中阶" data-search="61 《追色手记61》学习资料 森山大道黑白摄影调色：视频拆解与 lightroom 实操复盘 黑白摄影 中阶 说明：本文根据视频音频转写、画面截取与内容校对整理，保留学习所需的方法、步骤和关键截图，不包含逐字稿。">
+  <a href="episodes/61.html"><img loading="lazy" src="assets/covers/61-thumb.webp" alt="《追色手记61》学习资料"></a>
+  <div class="episode-body">
+    <div class="chips"><span class="chip">追色手记 61</span><span class="chip">中阶</span><span class="chip">黑白摄影</span></div>
+    <h3>森山大道黑白摄影调色：视频拆解与 Lightroom 实操复盘</h3>
+    <p>说明：本文根据视频音频转写、画面截取与内容校对整理，保留学习所需的方法、步骤和关键截图，不包含逐字稿。</p>
+    <a class="open-link" href="episodes/61.html">打开完整资料页</a>
+  </div>
+</article><article class="episode-card" data-stage="高阶" data-search="25 《追色手记25》学习资料 新海诚动漫风调色：视频拆解与 lightroom 实操复盘 新海诚动漫风 高阶 说明：本文根据视频音频转写、画面截取与内容校对整理，保留学习所需的方法、步骤和关键截图，不包含逐字稿。">
+  <a href="episodes/25.html"><img loading="lazy" src="assets/covers/25-thumb.webp" alt="《追色手记25》学习资料"></a>
+  <div class="episode-body">
+    <div class="chips"><span class="chip">追色手记 25</span><span class="chip">高阶</span><span class="chip">新海诚动漫风</span></div>
+    <h3>新海诚动漫风调色：视频拆解与 Lightroom 实操复盘</h3>
+    <p>说明：本文根据视频音频转写、画面截取与内容校对整理，保留学习所需的方法、步骤和关键截图，不包含逐字稿。</p>
+    <a class="open-link" href="episodes/25.html">打开完整资料页</a>
+  </div>
+</article><article class="episode-card" data-stage="高阶" data-search="34 《追色手记34》学习资料 唯美动漫感色调：视频拆解与 lightroom 实操复盘 动漫感 高阶 说明：本文根据视频音频转写、画面截取与内容校对整理，保留学习所需的方法、步骤和关键截图，不包含逐字稿。">
+  <a href="episodes/34.html"><img loading="lazy" src="assets/covers/34-thumb.webp" alt="《追色手记34》学习资料"></a>
+  <div class="episode-body">
+    <div class="chips"><span class="chip">追色手记 34</span><span class="chip">高阶</span><span class="chip">动漫感</span></div>
+    <h3>唯美动漫感色调：视频拆解与 Lightroom 实操复盘</h3>
+    <p>说明：本文根据视频音频转写、画面截取与内容校对整理，保留学习所需的方法、步骤和关键截图，不包含逐字稿。</p>
+    <a class="open-link" href="episodes/34.html">打开完整资料页</a>
+  </div>
+</article><article class="episode-card" data-stage="高阶" data-search="35 《追色手记35》学习资料 粉紫色系动漫色调：视频拆解与 lightroom 实操复盘 粉紫动漫 高阶 说明：本文根据视频音频转写、画面截取与内容校对整理，保留学习所需的方法、步骤和关键截图，不包含逐字稿。">
+  <a href="episodes/35.html"><img loading="lazy" src="assets/covers/35-thumb.webp" alt="《追色手记35》学习资料"></a>
+  <div class="episode-body">
+    <div class="chips"><span class="chip">追色手记 35</span><span class="chip">高阶</span><span class="chip">粉紫动漫</span></div>
+    <h3>粉紫色系动漫色调：视频拆解与 Lightroom 实操复盘</h3>
+    <p>说明：本文根据视频音频转写、画面截取与内容校对整理，保留学习所需的方法、步骤和关键截图，不包含逐字稿。</p>
+    <a class="open-link" href="episodes/35.html">打开完整资料页</a>
+  </div>
+</article><article class="episode-card" data-stage="高阶" data-search="41 《追色手记41》学习资料 ivanivanchenko梦幻色调：视频拆解与 lightroom 实操复盘 梦幻色调 高阶 说明：本文根据视频音频转写、画面截取与内容校对整理，保留学习所需的方法、步骤和关键截图，不包含逐字稿。">
+  <a href="episodes/41.html"><img loading="lazy" src="assets/covers/41-thumb.webp" alt="《追色手记41》学习资料"></a>
+  <div class="episode-body">
+    <div class="chips"><span class="chip">追色手记 41</span><span class="chip">高阶</span><span class="chip">梦幻色调</span></div>
+    <h3>ivanivanchenko梦幻色调：视频拆解与 Lightroom 实操复盘</h3>
+    <p>说明：本文根据视频音频转写、画面截取与内容校对整理，保留学习所需的方法、步骤和关键截图，不包含逐字稿。</p>
+    <a class="open-link" href="episodes/41.html">打开完整资料页</a>
+  </div>
+</article><article class="episode-card" data-stage="高阶" data-search="27 《追色手记27》学习资料 withluke风光光影调色：视频拆解与 lightroom 实操复盘 风光光影 高阶 说明：本文根据视频音频转写、画面截取与内容校对整理，保留学习所需的方法、步骤和关键截图，不包含逐字稿。">
+  <a href="episodes/27.html"><img loading="lazy" src="assets/covers/27-thumb.webp" alt="《追色手记27》学习资料"></a>
+  <div class="episode-body">
+    <div class="chips"><span class="chip">追色手记 27</span><span class="chip">高阶</span><span class="chip">风光光影</span></div>
+    <h3>WithLuke风光光影调色：视频拆解与 Lightroom 实操复盘</h3>
+    <p>说明：本文根据视频音频转写、画面截取与内容校对整理，保留学习所需的方法、步骤和关键截图，不包含逐字稿。</p>
+    <a class="open-link" href="episodes/27.html">打开完整资料页</a>
+  </div>
+</article><article class="episode-card" data-stage="高阶" data-search="56 《追色手记56》学习资料 cuma cevik风光紫霞色调：视频拆解与 lightroom 实操复盘 风光紫霞 高阶 说明：本文根据视频音频转写、画面截取与内容校对整理，保留学习所需的方法、步骤和关键截图，不包含逐字稿。">
+  <a href="episodes/56.html"><img loading="lazy" src="assets/covers/56-thumb.webp" alt="《追色手记56》学习资料"></a>
+  <div class="episode-body">
+    <div class="chips"><span class="chip">追色手记 56</span><span class="chip">高阶</span><span class="chip">风光紫霞</span></div>
+    <h3>Cuma Cevik风光紫霞色调：视频拆解与 Lightroom 实操复盘</h3>
+    <p>说明：本文根据视频音频转写、画面截取与内容校对整理，保留学习所需的方法、步骤和关键截图，不包含逐字稿。</p>
+    <a class="open-link" href="episodes/56.html">打开完整资料页</a>
+  </div>
+</article><article class="episode-card" data-stage="入门-高阶" data-search="57 《追色手记57》学习资料 鸡鸣寺秋季后期调色：视频拆解与 lightroom 实操复盘 完整后期挑战 入门-高阶 说明：本文根据视频音频转写、画面截取与内容校对整理，保留学习所需的方法、步骤和关键截图，不包含逐字稿。">
+  <a href="episodes/57.html"><img loading="lazy" src="assets/covers/57-thumb.webp" alt="《追色手记57》学习资料"></a>
+  <div class="episode-body">
+    <div class="chips"><span class="chip">追色手记 57</span><span class="chip">入门-高阶</span><span class="chip">完整后期挑战</span></div>
+    <h3>鸡鸣寺秋季后期调色：视频拆解与 Lightroom 实操复盘</h3>
+    <p>说明：本文根据视频音频转写、画面截取与内容校对整理，保留学习所需的方法、步骤和关键截图，不包含逐字稿。</p>
+    <a class="open-link" href="episodes/57.html">打开完整资料页</a>
+  </div>
+</article><article class="episode-card" data-stage="高阶" data-search="46 《追色手记46》学习资料 luiz claudio：逆光橙黄人像与 lightroom 精准仿色实操 大师级人像 高阶 说明：本文根据视频音频转写、画面截取与内容校对整理，保留学习所需的方法、步骤和关键截图，不包含逐字稿。">
+  <a href="episodes/46.html"><img loading="lazy" src="assets/covers/46-thumb.webp" alt="《追色手记46》学习资料"></a>
+  <div class="episode-body">
+    <div class="chips"><span class="chip">追色手记 46</span><span class="chip">高阶</span><span class="chip">大师级人像</span></div>
+    <h3>Luiz Claudio：逆光橙黄人像与 Lightroom 精准仿色实操</h3>
+    <p>说明：本文根据视频音频转写、画面截取与内容校对整理，保留学习所需的方法、步骤和关键截图，不包含逐字稿。</p>
+    <a class="open-link" href="episodes/46.html">打开完整资料页</a>
+  </div>
+</article><article class="episode-card" data-stage="高阶" data-search="53 《追色手记53》学习资料 rico reinhold：油画质感低调人像与 lightroom 仿色实操 油画质感 高阶 说明：本文根据视频音频转写、画面截取与内容校对整理，保留学习所需的方法、步骤和关键截图，不包含逐字稿。">
+  <a href="episodes/53.html"><img loading="lazy" src="assets/covers/53-thumb.webp" alt="《追色手记53》学习资料"></a>
+  <div class="episode-body">
+    <div class="chips"><span class="chip">追色手记 53</span><span class="chip">高阶</span><span class="chip">油画质感</span></div>
+    <h3>Rico Reinhold：油画质感低调人像与 Lightroom 仿色实操</h3>
+    <p>说明：本文根据视频音频转写、画面截取与内容校对整理，保留学习所需的方法、步骤和关键截图，不包含逐字稿。</p>
+    <a class="open-link" href="episodes/53.html">打开完整资料页</a>
+  </div>
+</article><article class="episode-card" data-stage="入门-中阶" data-search="04 《追色手记04》学习资料 samalive 摄影风格：从低中调橙青色调到 lightroom 仿色实操 摄影风格拆解 入门-中阶 说明：本文根据视频音频转写、画面截取与内容校对整理，保留学习所需的方法、步骤和关键截图，不包含逐字稿。">
+  <a href="episodes/04.html"><img loading="lazy" src="assets/covers/04-thumb.webp" alt="《追色手记04》学习资料"></a>
+  <div class="episode-body">
+    <div class="chips"><span class="chip">追色手记 04</span><span class="chip">入门-中阶</span><span class="chip">摄影风格拆解</span></div>
+    <h3>SamAlive 摄影风格：从低中调橙青色调到 Lightroom 仿色实操</h3>
+    <p>说明：本文根据视频音频转写、画面截取与内容校对整理，保留学习所需的方法、步骤和关键截图，不包含逐字稿。</p>
+    <a class="open-link" href="episodes/04.html">打开完整资料页</a>
+  </div>
+</article><article class="episode-card" data-stage="中阶" data-search="05 《追色手记05》学习资料 auxout摄影风格仿色：视频拆解与 lightroom 实操复盘 仿色方法 中阶 说明：本文根据视频音频转写、画面截取与内容校对整理，保留学习所需的方法、步骤和关键截图，不包含逐字稿。">
+  <a href="episodes/05.html"><img loading="lazy" src="assets/covers/05-thumb.webp" alt="《追色手记05》学习资料"></a>
+  <div class="episode-body">
+    <div class="chips"><span class="chip">追色手记 05</span><span class="chip">中阶</span><span class="chip">仿色方法</span></div>
+    <h3>AUXOUT摄影风格仿色：视频拆解与 Lightroom 实操复盘</h3>
+    <p>说明：本文根据视频音频转写、画面截取与内容校对整理，保留学习所需的方法、步骤和关键截图，不包含逐字稿。</p>
+    <a class="open-link" href="episodes/05.html">打开完整资料页</a>
+  </div>
+</article><article class="episode-card" data-stage="中阶" data-search="06 《追色手记06》学习资料 yangjihoon摄影风格调色：视频拆解与 lightroom 实操复盘 人像风格 中阶 说明：本文根据视频音频转写、画面截取与内容校对整理，保留学习所需的方法、步骤和关键截图，不包含逐字稿。">
+  <a href="episodes/06.html"><img loading="lazy" src="assets/covers/06-thumb.webp" alt="《追色手记06》学习资料"></a>
+  <div class="episode-body">
+    <div class="chips"><span class="chip">追色手记 06</span><span class="chip">中阶</span><span class="chip">人像风格</span></div>
+    <h3>YangJihoon摄影风格调色：视频拆解与 Lightroom 实操复盘</h3>
+    <p>说明：本文根据视频音频转写、画面截取与内容校对整理，保留学习所需的方法、步骤和关键截图，不包含逐字稿。</p>
+    <a class="open-link" href="episodes/06.html">打开完整资料页</a>
+  </div>
+</article><article class="episode-card" data-stage="入门-中阶" data-search="07 《追色手记07》学习资料 韩国摄影师 hello nana 胶片感仿色：从风格拆解到 lightroom 实操 胶片感/ai摄影 入门-中阶 说明：本文根据视频音频转写、画面截取与内容校对整理，保留学习所需的方法、步骤和关键截图，不包含逐字稿。">
+  <a href="episodes/07.html"><img loading="lazy" src="assets/covers/07-thumb.webp" alt="《追色手记07》学习资料"></a>
+  <div class="episode-body">
+    <div class="chips"><span class="chip">追色手记 07</span><span class="chip">入门-中阶</span><span class="chip">胶片感/AI摄影</span></div>
+    <h3>韩国摄影师 hello nana 胶片感仿色：从风格拆解到 Lightroom 实操</h3>
+    <p>说明：本文根据视频音频转写、画面截取与内容校对整理，保留学习所需的方法、步骤和关键截图，不包含逐字稿。</p>
+    <a class="open-link" href="episodes/07.html">打开完整资料页</a>
+  </div>
+</article><article class="episode-card" data-stage="中阶" data-search="10 《追色手记10》学习资料 摄影师调色密码：视频拆解与 lightroom 实操复盘 调色密码 中阶 说明：本文根据视频音频转写、画面截取与内容校对整理，保留学习所需的方法、步骤和关键截图，不包含逐字稿。">
+  <a href="episodes/10.html"><img loading="lazy" src="assets/covers/10-thumb.webp" alt="《追色手记10》学习资料"></a>
+  <div class="episode-body">
+    <div class="chips"><span class="chip">追色手记 10</span><span class="chip">中阶</span><span class="chip">调色密码</span></div>
+    <h3>摄影师调色密码：视频拆解与 Lightroom 实操复盘</h3>
+    <p>说明：本文根据视频音频转写、画面截取与内容校对整理，保留学习所需的方法、步骤和关键截图，不包含逐字稿。</p>
+    <a class="open-link" href="episodes/10.html">打开完整资料页</a>
+  </div>
+</article><article class="episode-card" data-stage="中阶" data-search="11 《追色手记11》学习资料 山口幸树色调风格：视频拆解与 lightroom 实操复盘 精准还原 中阶 说明：本文根据视频音频转写、画面截取与内容校对整理，保留学习所需的方法、步骤和关键截图，不包含逐字稿。">
+  <a href="episodes/11.html"><img loading="lazy" src="assets/covers/11-thumb.webp" alt="《追色手记11》学习资料"></a>
+  <div class="episode-body">
+    <div class="chips"><span class="chip">追色手记 11</span><span class="chip">中阶</span><span class="chip">精准还原</span></div>
+    <h3>山口幸树色调风格：视频拆解与 Lightroom 实操复盘</h3>
+    <p>说明：本文根据视频音频转写、画面截取与内容校对整理，保留学习所需的方法、步骤和关键截图，不包含逐字稿。</p>
+    <a class="open-link" href="episodes/11.html">打开完整资料页</a>
+  </div>
+</article><article class="episode-card" data-stage="中阶" data-search="14 《追色手记14》学习资料 东京祐：生活感日杂风与 lightroom 仿色实操 日杂风 中阶 说明：本文根据视频音频转写、画面截取与内容校对整理，保留学习所需的方法、步骤和关键截图，不包含逐字稿。">
+  <a href="episodes/14.html"><img loading="lazy" src="assets/covers/14-thumb.webp" alt="《追色手记14》学习资料"></a>
+  <div class="episode-body">
+    <div class="chips"><span class="chip">追色手记 14</span><span class="chip">中阶</span><span class="chip">日杂风</span></div>
+    <h3>东京祐：生活感日杂风与 Lightroom 仿色实操</h3>
+    <p>说明：本文根据视频音频转写、画面截取与内容校对整理，保留学习所需的方法、步骤和关键截图，不包含逐字稿。</p>
+    <a class="open-link" href="episodes/14.html">打开完整资料页</a>
+  </div>
+</article><article class="episode-card" data-stage="中阶" data-search="17 《追色手记17》学习资料 低饱和高级感色调：视频拆解与 lightroom 实操复盘 低饱和高级感 中阶 说明：本文根据视频音频转写、画面截取与内容校对整理，保留学习所需的方法、步骤和关键截图，不包含逐字稿。">
+  <a href="episodes/17.html"><img loading="lazy" src="assets/covers/17-thumb.webp" alt="《追色手记17》学习资料"></a>
+  <div class="episode-body">
+    <div class="chips"><span class="chip">追色手记 17</span><span class="chip">中阶</span><span class="chip">低饱和高级感</span></div>
+    <h3>低饱和高级感色调：视频拆解与 Lightroom 实操复盘</h3>
+    <p>说明：本文根据视频音频转写、画面截取与内容校对整理，保留学习所需的方法、步骤和关键截图，不包含逐字稿。</p>
+    <a class="open-link" href="episodes/17.html">打开完整资料页</a>
+  </div>
+</article><article class="episode-card" data-stage="中阶" data-search="18 《追色手记18》学习资料 pat kay日系色调：视频拆解与 lightroom 实操复盘 pat kay日系 中阶 说明：本文根据视频音频转写、画面截取与内容校对整理，保留学习所需的方法、步骤和关键截图，不包含逐字稿。">
+  <a href="episodes/18.html"><img loading="lazy" src="assets/covers/18-thumb.webp" alt="《追色手记18》学习资料"></a>
+  <div class="episode-body">
+    <div class="chips"><span class="chip">追色手记 18</span><span class="chip">中阶</span><span class="chip">Pat Kay日系</span></div>
+    <h3>Pat Kay日系色调：视频拆解与 Lightroom 实操复盘</h3>
+    <p>说明：本文根据视频音频转写、画面截取与内容校对整理，保留学习所需的方法、步骤和关键截图，不包含逐字稿。</p>
+    <a class="open-link" href="episodes/18.html">打开完整资料页</a>
+  </div>
+</article><article class="episode-card" data-stage="中阶" data-search="19 《追色手记19》学习资料 摄影师调色密码：视频拆解与 lightroom 实操复盘 调色规律 中阶 说明：本文根据视频音频转写、画面截取与内容校对整理，保留学习所需的方法、步骤和关键截图，不包含逐字稿。">
+  <a href="episodes/19.html"><img loading="lazy" src="assets/covers/19-thumb.webp" alt="《追色手记19》学习资料"></a>
+  <div class="episode-body">
+    <div class="chips"><span class="chip">追色手记 19</span><span class="chip">中阶</span><span class="chip">调色规律</span></div>
+    <h3>摄影师调色密码：视频拆解与 Lightroom 实操复盘</h3>
+    <p>说明：本文根据视频音频转写、画面截取与内容校对整理，保留学习所需的方法、步骤和关键截图，不包含逐字稿。</p>
+    <a class="open-link" href="episodes/19.html">打开完整资料页</a>
+  </div>
+</article><article class="episode-card" data-stage="高阶" data-search="20 《追色手记20》学习资料 繁花色彩美学仿色：视频拆解与 lightroom 实操复盘 繁花色彩 高阶 说明：本文根据视频音频转写、画面截取与内容校对整理，保留学习所需的方法、步骤和关键截图，不包含逐字稿。">
+  <a href="episodes/20.html"><img loading="lazy" src="assets/covers/20-thumb.webp" alt="《追色手记20》学习资料"></a>
+  <div class="episode-body">
+    <div class="chips"><span class="chip">追色手记 20</span><span class="chip">高阶</span><span class="chip">繁花色彩</span></div>
+    <h3>繁花色彩美学仿色：视频拆解与 Lightroom 实操复盘</h3>
+    <p>说明：本文根据视频音频转写、画面截取与内容校对整理，保留学习所需的方法、步骤和关键截图，不包含逐字稿。</p>
+    <a class="open-link" href="episodes/20.html">打开完整资料页</a>
+  </div>
+</article><article class="episode-card" data-stage="高阶" data-search="22 《追色手记22》学习资料 摄影风格调色规律：视频拆解与 lightroom 实操复盘 风格规律 高阶 说明：本文根据视频音频转写、画面截取与内容校对整理，保留学习所需的方法、步骤和关键截图，不包含逐字稿。">
+  <a href="episodes/22.html"><img loading="lazy" src="assets/covers/22-thumb.webp" alt="《追色手记22》学习资料"></a>
+  <div class="episode-body">
+    <div class="chips"><span class="chip">追色手记 22</span><span class="chip">高阶</span><span class="chip">风格规律</span></div>
+    <h3>摄影风格调色规律：视频拆解与 Lightroom 实操复盘</h3>
+    <p>说明：本文根据视频音频转写、画面截取与内容校对整理，保留学习所需的方法、步骤和关键截图，不包含逐字稿。</p>
+    <a class="open-link" href="episodes/22.html">打开完整资料页</a>
+  </div>
+</article><article class="episode-card" data-stage="入门" data-search="24 《追色手记24》学习资料 户外踏青治愈色调：视频拆解与 lightroom 实操复盘 治愈户外 入门 说明：本文根据视频音频转写、画面截取与内容校对整理，保留学习所需的方法、步骤和关键截图，不包含逐字稿。">
+  <a href="episodes/24.html"><img loading="lazy" src="assets/covers/24-thumb.webp" alt="《追色手记24》学习资料"></a>
+  <div class="episode-body">
+    <div class="chips"><span class="chip">追色手记 24</span><span class="chip">入门</span><span class="chip">治愈户外</span></div>
+    <h3>户外踏青治愈色调：视频拆解与 Lightroom 实操复盘</h3>
+    <p>说明：本文根据视频音频转写、画面截取与内容校对整理，保留学习所需的方法、步骤和关键截图，不包含逐字稿。</p>
+    <a class="open-link" href="episodes/24.html">打开完整资料页</a>
+  </div>
+</article><article class="episode-card" data-stage="入门-中阶" data-search="26 《追色手记26》学习资料 唯美浪漫日系清新调色：视频拆解与 lightroom 实操复盘 唯美浪漫 入门-中阶 说明：本文根据视频音频转写、画面截取与内容校对整理，保留学习所需的方法、步骤和关键截图，不包含逐字稿。">
+  <a href="episodes/26.html"><img loading="lazy" src="assets/covers/26-thumb.webp" alt="《追色手记26》学习资料"></a>
+  <div class="episode-body">
+    <div class="chips"><span class="chip">追色手记 26</span><span class="chip">入门-中阶</span><span class="chip">唯美浪漫</span></div>
+    <h3>唯美浪漫日系清新调色：视频拆解与 Lightroom 实操复盘</h3>
+    <p>说明：本文根据视频音频转写、画面截取与内容校对整理，保留学习所需的方法、步骤和关键截图，不包含逐字稿。</p>
+    <a class="open-link" href="episodes/26.html">打开完整资料页</a>
+  </div>
+</article><article class="episode-card" data-stage="中阶" data-search="28 《追色手记28》学习资料 富士nc经典负片仿色：视频拆解与 lightroom 实操复盘 富士nc/负片 中阶 说明：本文根据视频音频转写、画面截取与内容校对整理，保留学习所需的方法、步骤和关键截图，不包含逐字稿。">
+  <a href="episodes/28.html"><img loading="lazy" src="assets/covers/28-thumb.webp" alt="《追色手记28》学习资料"></a>
+  <div class="episode-body">
+    <div class="chips"><span class="chip">追色手记 28</span><span class="chip">中阶</span><span class="chip">富士NC/负片</span></div>
+    <h3>富士NC经典负片仿色：视频拆解与 Lightroom 实操复盘</h3>
+    <p>说明：本文根据视频音频转写、画面截取与内容校对整理，保留学习所需的方法、步骤和关键截图，不包含逐字稿。</p>
+    <a class="open-link" href="episodes/28.html">打开完整资料页</a>
+  </div>
+</article><article class="episode-card" data-stage="中阶" data-search="33 《追色手记33》学习资料 诗意色调调色：视频拆解与 lightroom 实操复盘 诗意色调 中阶 说明：本文根据视频音频转写、画面截取与内容校对整理，保留学习所需的方法、步骤和关键截图，不包含逐字稿。">
+  <a href="episodes/33.html"><img loading="lazy" src="assets/covers/33-thumb.webp" alt="《追色手记33》学习资料"></a>
+  <div class="episode-body">
+    <div class="chips"><span class="chip">追色手记 33</span><span class="chip">中阶</span><span class="chip">诗意色调</span></div>
+    <h3>诗意色调调色：视频拆解与 Lightroom 实操复盘</h3>
+    <p>说明：本文根据视频音频转写、画面截取与内容校对整理，保留学习所需的方法、步骤和关键截图，不包含逐字稿。</p>
+    <a class="open-link" href="episodes/33.html">打开完整资料页</a>
+  </div>
+</article><article class="episode-card" data-stage="中阶" data-search="42 《追色手记42》学习资料 新年摄影大师色调：视频拆解与 lightroom 实操复盘 综合风格 中阶 说明：本文根据视频音频转写、画面截取与内容校对整理，保留学习所需的方法、步骤和关键截图，不包含逐字稿。">
+  <a href="episodes/42.html"><img loading="lazy" src="assets/covers/42-thumb.webp" alt="《追色手记42》学习资料"></a>
+  <div class="episode-body">
+    <div class="chips"><span class="chip">追色手记 42</span><span class="chip">中阶</span><span class="chip">综合风格</span></div>
+    <h3>新年摄影大师色调：视频拆解与 Lightroom 实操复盘</h3>
+    <p>说明：本文根据视频音频转写、画面截取与内容校对整理，保留学习所需的方法、步骤和关键截图，不包含逐字稿。</p>
+    <a class="open-link" href="episodes/42.html">打开完整资料页</a>
+  </div>
+</article><article class="episode-card" data-stage="中阶" data-search="45 《追色手记45》学习资料 shashin toruzo户外旅行色调：视频拆解与 lightroom 实操复盘 户外旅行 中阶 说明：本文根据视频音频转写、画面截取与内容校对整理，保留学习所需的方法、步骤和关键截图，不包含逐字稿。">
+  <a href="episodes/45.html"><img loading="lazy" src="assets/covers/45-thumb.webp" alt="《追色手记45》学习资料"></a>
+  <div class="episode-body">
+    <div class="chips"><span class="chip">追色手记 45</span><span class="chip">中阶</span><span class="chip">户外旅行</span></div>
+    <h3>shashin toruzo户外旅行色调：视频拆解与 Lightroom 实操复盘</h3>
+    <p>说明：本文根据视频音频转写、画面截取与内容校对整理，保留学习所需的方法、步骤和关键截图，不包含逐字稿。</p>
+    <a class="open-link" href="episodes/45.html">打开完整资料页</a>
+  </div>
+</article><article class="episode-card" data-stage="高阶" data-search="47 《追色手记47》学习资料 kosnio色调深度解析：视频拆解与 lightroom 实操复盘 深度仿色 高阶 说明：本文根据视频音频转写、画面截取与内容校对整理，保留学习所需的方法、步骤和关键截图，不包含逐字稿。">
+  <a href="episodes/47.html"><img loading="lazy" src="assets/covers/47-thumb.webp" alt="《追色手记47》学习资料"></a>
+  <div class="episode-body">
+    <div class="chips"><span class="chip">追色手记 47</span><span class="chip">高阶</span><span class="chip">深度仿色</span></div>
+    <h3>Kosnio色调深度解析：视频拆解与 Lightroom 实操复盘</h3>
+    <p>说明：本文根据视频音频转写、画面截取与内容校对整理，保留学习所需的方法、步骤和关键截图，不包含逐字稿。</p>
+    <a class="open-link" href="episodes/47.html">打开完整资料页</a>
+  </div>
+</article><article class="episode-card" data-stage="高阶" data-search="52 《追色手记52》学习资料 kai böttcher：室内人像黄绿色调与 lightroom 保姆级实操 黄绿色人像 高阶 说明：本文根据视频音频转写、画面截取与内容校对整理，保留学习所需的方法、步骤和关键截图，不包含逐字稿。">
+  <a href="episodes/52.html"><img loading="lazy" src="assets/covers/52-thumb.webp" alt="《追色手记52》学习资料"></a>
+  <div class="episode-body">
+    <div class="chips"><span class="chip">追色手记 52</span><span class="chip">高阶</span><span class="chip">黄绿色人像</span></div>
+    <h3>Kai Böttcher：室内人像黄绿色调与 Lightroom 保姆级实操</h3>
+    <p>说明：本文根据视频音频转写、画面截取与内容校对整理，保留学习所需的方法、步骤和关键截图，不包含逐字稿。</p>
+    <a class="open-link" href="episodes/52.html">打开完整资料页</a>
+  </div>
+</article><article class="episode-card" data-stage="中阶" data-search="54 《追色手记54》学习资料 grrrgom韩系风调色：视频拆解与 lightroom 实操复盘 韩系风 中阶 说明：本文根据视频音频转写、画面截取与内容校对整理，保留学习所需的方法、步骤和关键截图，不包含逐字稿。">
+  <a href="episodes/54.html"><img loading="lazy" src="assets/covers/54-thumb.webp" alt="《追色手记54》学习资料"></a>
+  <div class="episode-body">
+    <div class="chips"><span class="chip">追色手记 54</span><span class="chip">中阶</span><span class="chip">韩系风</span></div>
+    <h3>grrrgom韩系风调色：视频拆解与 Lightroom 实操复盘</h3>
+    <p>说明：本文根据视频音频转写、画面截取与内容校对整理，保留学习所需的方法、步骤和关键截图，不包含逐字稿。</p>
+    <a class="open-link" href="episodes/54.html">打开完整资料页</a>
+  </div>
+</article><article class="episode-card" data-stage="入门" data-search="59 《追色手记59》学习资料 日常高出片率综合色调：视频拆解与 lightroom 实操复盘 日常通用色调 入门 说明：本文根据视频音频转写、画面截取与内容校对整理，保留学习所需的方法、步骤和关键截图，不包含逐字稿。">
+  <a href="episodes/59.html"><img loading="lazy" src="assets/covers/59-thumb.webp" alt="《追色手记59》学习资料"></a>
+  <div class="episode-body">
+    <div class="chips"><span class="chip">追色手记 59</span><span class="chip">入门</span><span class="chip">日常通用色调</span></div>
+    <h3>日常高出片率综合色调：视频拆解与 Lightroom 实操复盘</h3>
+    <p>说明：本文根据视频音频转写、画面截取与内容校对整理，保留学习所需的方法、步骤和关键截图，不包含逐字稿。</p>
+    <a class="open-link" href="episodes/59.html">打开完整资料页</a>
+  </div>
+</article></div>
+</section>
+<script src="assets/app.js"></script>
 
-  <script src="app.js" type="module"></script>
+  <footer class="footer">本地资料库生成于 2026-05-24。图片与文字来自本机 Word 学习资料。</footer>
 </body>
 </html>
