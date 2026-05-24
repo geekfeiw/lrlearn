@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="追色手记 62 期 Lightroom 调色学习资料：路线、风格配方、问题排查与视频索引。">
+  <title>LR Learn | 追色手记调色学习手册</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#top" aria-label="LR Learn">
+      <span class="brand-mark"></span>
+      <span>LR Learn</span>
+    </a>
+    <nav class="nav" aria-label="主导航">
+      <a href="#roadmap">路线</a>
+      <a href="#recipes">配方</a>
+      <a href="#episodes">索引</a>
+      <a href="#trouble">排查</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-collage" id="heroCollage" aria-hidden="true"></div>
+      <div class="hero-content">
+        <p class="eyebrow">追色手记 01-62</p>
+        <h1>调色学习手册</h1>
+        <p class="hero-copy">从校正、影调、HSL、曲线到仿色迁移，把 62 期经验整理成一套可以反复练习的 Lightroom 学习系统。</p>
+        <div class="search-panel" role="search">
+          <label for="searchInput">检索</label>
+          <input id="searchInput" type="search" placeholder="搜索风格、摄影师、工具或期数">
+          <div class="select-row">
+            <label for="tagSelect">风格</label>
+            <select id="tagSelect"></select>
+          </div>
+        </div>
+        <div class="hero-stats" id="heroStats"></div>
+      </div>
+    </section>
+
+    <section class="band intro-band" aria-labelledby="overviewTitle">
+      <div class="section-head">
+        <p class="eyebrow">Overview</p>
+        <h2 id="overviewTitle">一页总纲</h2>
+      </div>
+      <div class="overview-grid" id="overviewGrid"></div>
+    </section>
+
+    <section class="band" id="roadmap" aria-labelledby="roadmapTitle">
+      <div class="section-head">
+        <p class="eyebrow">Roadmap</p>
+        <h2 id="roadmapTitle">从入门到高阶</h2>
+      </div>
+      <div class="roadmap" id="roadmapGrid"></div>
+    </section>
+
+    <section class="band dark-band" id="recipes" aria-labelledby="recipesTitle">
+      <div class="section-head">
+        <p class="eyebrow">Recipes</p>
+        <h2 id="recipesTitle">风格配方库</h2>
+      </div>
+      <div class="recipe-grid" id="recipeGrid"></div>
+    </section>
+
+    <section class="band" id="episodes" aria-labelledby="episodesTitle">
+      <div class="section-head row-head">
+        <div>
+          <p class="eyebrow">Library</p>
+          <h2 id="episodesTitle">62 期索引</h2>
+        </div>
+        <div class="stage-tabs" id="stageTabs" aria-label="阶段筛选"></div>
+      </div>
+      <div class="result-line" id="resultLine"></div>
+      <div class="episode-grid" id="episodeGrid"></div>
+    </section>
+
+    <section class="band split-band" id="trouble" aria-labelledby="troubleTitle">
+      <div class="section-head">
+        <p class="eyebrow">Diagnosis</p>
+        <h2 id="troubleTitle">常见问题排查</h2>
+      </div>
+      <div class="trouble-grid" id="troubleGrid"></div>
+    </section>
+
+    <section class="band practice-band" aria-labelledby="practiceTitle">
+      <div class="section-head">
+        <p class="eyebrow">Practice</p>
+        <h2 id="practiceTitle">8 周训练计划</h2>
+      </div>
+      <div class="training-grid" id="trainingGrid"></div>
+    </section>
+
+    <section class="band closing-band" aria-labelledby="principlesTitle">
+      <div class="section-head">
+        <p class="eyebrow">Principles</p>
+        <h2 id="principlesTitle">最终记住的 12 条经验</h2>
+      </div>
+      <ol class="principle-list" id="principleList"></ol>
+    </section>
+  </main>
+
+  <div class="detail-panel" id="detailPanel" hidden>
+    <div class="detail-scrim" data-close></div>
+    <article class="detail-sheet" aria-modal="true" role="dialog" aria-labelledby="detailTitle">
+      <button class="close-button" type="button" data-close aria-label="关闭">×</button>
+      <div id="detailContent"></div>
+    </article>
+  </div>
+
+  <script src="app.js" type="module"></script>
+</body>
+</html>
